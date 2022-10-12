@@ -43,8 +43,7 @@
       "files": [{
         "destination": "assets/data/properties.json",
         "format": "json"
-      }],
-      "actions": ["copy_assets"]
+      }]
     }
   }
 }
