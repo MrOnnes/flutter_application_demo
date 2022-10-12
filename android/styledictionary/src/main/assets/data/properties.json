@@ -184,6 +184,2919 @@
       ]
     }
   },
+  "typo": {
+    "display-2xlarge": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_display_2xlarge_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "display-2xlarge",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "display-2xlarge",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 700,
+          "type": "fontWeight"
+        },
+        "name": "typo_display_2xlarge_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "display-2xlarge",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "display-2xlarge",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 90,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 90,
+          "type": "lineHeight"
+        },
+        "name": "typo_display_2xlarge_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "display-2xlarge",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "display-2xlarge",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 72,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 72,
+          "type": "fontSize"
+        },
+        "name": "typo_display_2xlarge_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "display-2xlarge",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "display-2xlarge",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "-2%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_display_2xlarge_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "display-2xlarge",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "display-2xlarge",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 72,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 72,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_display_2xlarge_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "display-2xlarge",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "display-2xlarge",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "capitalize",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "capitalize",
+          "type": "textCase"
+        },
+        "name": "typo_display_2xlarge_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "display-2xlarge",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "display-2xlarge",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_display_2xlarge_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "display-2xlarge",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "display-2xlarge",
+          "textDecoration"
+        ]
+      }
+    },
+    "display-xlarge": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_display_xlarge_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "display-xlarge",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "display-xlarge",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 600,
+          "type": "fontWeight"
+        },
+        "name": "typo_display_xlarge_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "display-xlarge",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "display-xlarge",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 72,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 72,
+          "type": "lineHeight"
+        },
+        "name": "typo_display_xlarge_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "display-xlarge",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "display-xlarge",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 60,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 60,
+          "type": "fontSize"
+        },
+        "name": "typo_display_xlarge_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "display-xlarge",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "display-xlarge",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "-2%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_display_xlarge_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "display-xlarge",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "display-xlarge",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 60,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 60,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_display_xlarge_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "display-xlarge",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "display-xlarge",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "capitalize",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "capitalize",
+          "type": "textCase"
+        },
+        "name": "typo_display_xlarge_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "display-xlarge",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "display-xlarge",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_display_xlarge_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "display-xlarge",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "display-xlarge",
+          "textDecoration"
+        ]
+      }
+    },
+    "display-large": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_display_large_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "display-large",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "display-large",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 600,
+          "type": "fontWeight"
+        },
+        "name": "typo_display_large_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "display-large",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "display-large",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 60,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 60,
+          "type": "lineHeight"
+        },
+        "name": "typo_display_large_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "display-large",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "display-large",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 48,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 48,
+          "type": "fontSize"
+        },
+        "name": "typo_display_large_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "display-large",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "display-large",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "-2%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_display_large_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "display-large",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "display-large",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 48,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 48,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_display_large_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "display-large",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "display-large",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "capitalize",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "capitalize",
+          "type": "textCase"
+        },
+        "name": "typo_display_large_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "display-large",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "display-large",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_display_large_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "display-large",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "display-large",
+          "textDecoration"
+        ]
+      }
+    },
+    "display-medium": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_display_medium_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "display-medium",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "display-medium",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 600,
+          "type": "fontWeight"
+        },
+        "name": "typo_display_medium_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "display-medium",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "display-medium",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 44,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 44,
+          "type": "lineHeight"
+        },
+        "name": "typo_display_medium_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "display-medium",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "display-medium",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 36,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 36,
+          "type": "fontSize"
+        },
+        "name": "typo_display_medium_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "display-medium",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "display-medium",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "-2%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_display_medium_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "display-medium",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "display-medium",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 36,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 36,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_display_medium_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "display-medium",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "display-medium",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "capitalize",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "capitalize",
+          "type": "textCase"
+        },
+        "name": "typo_display_medium_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "display-medium",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "display-medium",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_display_medium_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "display-medium",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "display-medium",
+          "textDecoration"
+        ]
+      }
+    },
+    "h1": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_h1_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "h1",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "h1",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 600,
+          "type": "fontWeight"
+        },
+        "name": "typo_h1_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "h1",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "h1",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 38,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 38,
+          "type": "lineHeight"
+        },
+        "name": "typo_h1_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "h1",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "h1",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 30,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 30,
+          "type": "fontSize"
+        },
+        "name": "typo_h1_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "h1",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "h1",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_h1_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "h1",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "h1",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 30,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 30,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_h1_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "h1",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "h1",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "capitalize",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "capitalize",
+          "type": "textCase"
+        },
+        "name": "typo_h1_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "h1",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "h1",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_h1_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "h1",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "h1",
+          "textDecoration"
+        ]
+      }
+    },
+    "h2": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_h2_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "h2",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "h2",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 600,
+          "type": "fontWeight"
+        },
+        "name": "typo_h2_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "h2",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "h2",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 32,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 32,
+          "type": "lineHeight"
+        },
+        "name": "typo_h2_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "h2",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "h2",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 24,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "fontSize"
+        },
+        "name": "typo_h2_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "h2",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "h2",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_h2_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "h2",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "h2",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 24,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_h2_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "h2",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "h2",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "capitalize",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "capitalize",
+          "type": "textCase"
+        },
+        "name": "typo_h2_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "h2",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "h2",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_h2_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "h2",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "h2",
+          "textDecoration"
+        ]
+      }
+    },
+    "h3": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_h3_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "h3",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "h3",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 600,
+          "type": "fontWeight"
+        },
+        "name": "typo_h3_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "h3",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "h3",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 30,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 30,
+          "type": "lineHeight"
+        },
+        "name": "typo_h3_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "h3",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "h3",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 20,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 20,
+          "type": "fontSize"
+        },
+        "name": "typo_h3_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "h3",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "h3",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_h3_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "h3",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "h3",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 20,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 20,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_h3_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "h3",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "h3",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "capitalize",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "capitalize",
+          "type": "textCase"
+        },
+        "name": "typo_h3_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "h3",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "h3",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_h3_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "h3",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "h3",
+          "textDecoration"
+        ]
+      }
+    },
+    "h4": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_h4_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "h4",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "h4",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 600,
+          "type": "fontWeight"
+        },
+        "name": "typo_h4_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "h4",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "h4",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 28,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 28,
+          "type": "lineHeight"
+        },
+        "name": "typo_h4_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "h4",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "h4",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 18,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 18,
+          "type": "fontSize"
+        },
+        "name": "typo_h4_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "h4",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "h4",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_h4_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "h4",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "h4",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 18,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 18,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_h4_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "h4",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "h4",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "capitalize",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "capitalize",
+          "type": "textCase"
+        },
+        "name": "typo_h4_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "h4",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "h4",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_h4_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "h4",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "h4",
+          "textDecoration"
+        ]
+      }
+    },
+    "h5": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_h5_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "h5",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "h5",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 500,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 500,
+          "type": "fontWeight"
+        },
+        "name": "typo_h5_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "h5",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "h5",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 24,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "name": "typo_h5_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "h5",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "h5",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 16,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "name": "typo_h5_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "h5",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "h5",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_h5_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "h5",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "h5",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_h5_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "h5",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "h5",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "capitalize",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "capitalize",
+          "type": "textCase"
+        },
+        "name": "typo_h5_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "h5",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "h5",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_h5_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "h5",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "h5",
+          "textDecoration"
+        ]
+      }
+    },
+    "body1": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_body1_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "body1",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "body1",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 400,
+          "type": "fontWeight"
+        },
+        "name": "typo_body1_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "body1",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "body1",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 24,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "name": "typo_body1_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "body1",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "body1",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 16,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "name": "typo_body1_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "body1",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "body1",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_body1_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "body1",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "body1",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_body1_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "body1",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "body1",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "typo_body1_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "body1",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "body1",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_body1_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "body1",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "body1",
+          "textDecoration"
+        ]
+      }
+    },
+    "body2": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_body2_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "body2",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "body2",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 400,
+          "type": "fontWeight"
+        },
+        "name": "typo_body2_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "body2",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "body2",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 20,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 20,
+          "type": "lineHeight"
+        },
+        "name": "typo_body2_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "body2",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "body2",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 14,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 14,
+          "type": "fontSize"
+        },
+        "name": "typo_body2_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "body2",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "body2",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_body2_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "body2",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "body2",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 14,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 14,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_body2_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "body2",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "body2",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "typo_body2_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "body2",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "body2",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_body2_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "body2",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "body2",
+          "textDecoration"
+        ]
+      }
+    },
+    "subtitle1": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_subtitle1_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle1",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "subtitle1",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 700,
+          "type": "fontWeight"
+        },
+        "name": "typo_subtitle1_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle1",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "subtitle1",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 24,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "name": "typo_subtitle1_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle1",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "subtitle1",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 16,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "name": "typo_subtitle1_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle1",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "subtitle1",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_subtitle1_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle1",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "subtitle1",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_subtitle1_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle1",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "subtitle1",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "capitalize",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "capitalize",
+          "type": "textCase"
+        },
+        "name": "typo_subtitle1_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle1",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "subtitle1",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_subtitle1_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle1",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "subtitle1",
+          "textDecoration"
+        ]
+      }
+    },
+    "subtitle2": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_subtitle2_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle2",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "subtitle2",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 700,
+          "type": "fontWeight"
+        },
+        "name": "typo_subtitle2_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle2",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "subtitle2",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 20,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 20,
+          "type": "lineHeight"
+        },
+        "name": "typo_subtitle2_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle2",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "subtitle2",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 14,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 14,
+          "type": "fontSize"
+        },
+        "name": "typo_subtitle2_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle2",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "subtitle2",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_subtitle2_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle2",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "subtitle2",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 14,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 14,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_subtitle2_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle2",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "subtitle2",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "capitalize",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "capitalize",
+          "type": "textCase"
+        },
+        "name": "typo_subtitle2_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle2",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "subtitle2",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_subtitle2_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "subtitle2",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "subtitle2",
+          "textDecoration"
+        ]
+      }
+    },
+    "button1": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_button1_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "button1",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "button1",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 600,
+          "type": "fontWeight"
+        },
+        "name": "typo_button1_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "button1",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "button1",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 24,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "name": "typo_button1_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "button1",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "button1",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 14,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 14,
+          "type": "fontSize"
+        },
+        "name": "typo_button1_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "button1",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "button1",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_button1_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "button1",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "button1",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_button1_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "button1",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "button1",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "capitalize",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "capitalize",
+          "type": "textCase"
+        },
+        "name": "typo_button1_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "button1",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "button1",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_button1_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "button1",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "button1",
+          "textDecoration"
+        ]
+      }
+    },
+    "button2": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_button2_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "button2",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "button2",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 500,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 500,
+          "type": "fontWeight"
+        },
+        "name": "typo_button2_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "button2",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "button2",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 20,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 20,
+          "type": "lineHeight"
+        },
+        "name": "typo_button2_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "button2",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "button2",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 12,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 12,
+          "type": "fontSize"
+        },
+        "name": "typo_button2_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "button2",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "button2",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_button2_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "button2",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "button2",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 14,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 14,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_button2_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "button2",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "button2",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "capitalize",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "capitalize",
+          "type": "textCase"
+        },
+        "name": "typo_button2_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "button2",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "button2",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_button2_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "button2",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "button2",
+          "textDecoration"
+        ]
+      }
+    },
+    "label": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_label_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "label",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "label",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 600,
+          "type": "fontWeight"
+        },
+        "name": "typo_label_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "label",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "label",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 18,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 18,
+          "type": "lineHeight"
+        },
+        "name": "typo_label_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "label",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "label",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 12,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 12,
+          "type": "fontSize"
+        },
+        "name": "typo_label_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "label",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "label",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_label_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "label",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "label",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 12,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 12,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_label_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "label",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "label",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "capitalize",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "capitalize",
+          "type": "textCase"
+        },
+        "name": "typo_label_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "label",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "label",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_label_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "label",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "label",
+          "textDecoration"
+        ]
+      }
+    },
+    "caption": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "name": "typo_caption_font_family",
+        "attributes": {
+          "category": "typo",
+          "type": "caption",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typo",
+          "caption",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "fontWeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 400,
+          "type": "fontWeight"
+        },
+        "name": "typo_caption_font_weight",
+        "attributes": {
+          "category": "typo",
+          "type": "caption",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typo",
+          "caption",
+          "fontWeight"
+        ]
+      },
+      "lineHeight": {
+        "value": 18,
+        "type": "lineHeight",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 18,
+          "type": "lineHeight"
+        },
+        "name": "typo_caption_line_height",
+        "attributes": {
+          "category": "typo",
+          "type": "caption",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typo",
+          "caption",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": 12,
+        "type": "fontSize",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 12,
+          "type": "fontSize"
+        },
+        "name": "typo_caption_font_size",
+        "attributes": {
+          "category": "typo",
+          "type": "caption",
+          "item": "fontSize"
+        },
+        "path": [
+          "typo",
+          "caption",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "name": "typo_caption_letter_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "caption",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typo",
+          "caption",
+          "letterSpacing"
+        ]
+      },
+      "paragraphSpacing": {
+        "value": 12,
+        "type": "paragraphSpacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 12,
+          "type": "paragraphSpacing"
+        },
+        "name": "typo_caption_paragraph_spacing",
+        "attributes": {
+          "category": "typo",
+          "type": "caption",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typo",
+          "caption",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "name": "typo_caption_text_case",
+        "attributes": {
+          "category": "typo",
+          "type": "caption",
+          "item": "textCase"
+        },
+        "path": [
+          "typo",
+          "caption",
+          "textCase"
+        ]
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "name": "typo_caption_text_decoration",
+        "attributes": {
+          "category": "typo",
+          "type": "caption",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typo",
+          "caption",
+          "textDecoration"
+        ]
+      }
+    }
+  },
+  "fontFamilies": {
+    "sans-serif": {
+      "value": "Inter",
+      "type": "fontFamilies",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "name": "font_families_sans_serif",
+      "attributes": {
+        "category": "fontFamilies",
+        "type": "sans-serif"
+      },
+      "path": [
+        "fontFamilies",
+        "sans-serif"
+      ]
+    }
+  },
   "color": {
     "primary": {
       "value": "#ffffdd00",
@@ -507,6 +3420,29 @@
         "color",
         "text-white"
       ]
+    },
+    "background": {
+      "white": {
+        "value": "#fffcfcfd",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#fcfcfd",
+          "type": "color"
+        },
+        "name": "color_background_white",
+        "attributes": {
+          "category": "color",
+          "type": "background",
+          "item": "white"
+        },
+        "path": [
+          "color",
+          "background",
+          "white"
+        ]
+      }
     },
     "outline": {
       "value": "#ff344054",

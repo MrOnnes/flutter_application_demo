@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'widget/button_widget.dart';
 import 'widget/input_widget.dart';
+import '../unique_file/style_dictionary_color.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,9 +16,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+        //primaryColor: StyleDictionary.primary),
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Token Demo'),
+      home: const MyHomePage(title: 'Token Demo test'),
     );
   }
 }

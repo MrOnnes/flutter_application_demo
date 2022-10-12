@@ -14,6 +14,23 @@
           }
       ]
   },
+  "flutter-separate": {
+    "transformGroup": "flutter-separate",
+          "buildPath": "lib/unique_file/",
+    "files": [
+        {
+            "destination": "style_dictionary_color.dart",
+            "format": "flutter/class.dart",
+            "className": "StyleDictionary",
+            "type": "color",
+            "filter":{
+              "attributes":{
+                "category": "color"
+              }
+            }
+        }
+    ]
+},
   
 
     "android": {

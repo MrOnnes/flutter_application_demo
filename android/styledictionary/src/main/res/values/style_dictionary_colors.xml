@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 12 Oct 2022 08:14:50 GMT
+  Generated on Wed, 12 Oct 2022 08:51:54 GMT
 -->
 <resources>
   <color name="color_primary">#ffffdd00</color>
@@ -22,6 +22,7 @@
   <color name="color_text_dark">#ff344054</color>
   <color name="color_text_gray">#ff98a2b3</color>
   <color name="color_text_white">#fffcfcfd</color>
+  <color name="color_background_white">#fffcfcfd</color>
   <color name="color_outline">#ff344054</color>
   <color name="color_placeholder">#ff98a2b3</color>
   <color name="color_disabled">#fff2f4f7</color>

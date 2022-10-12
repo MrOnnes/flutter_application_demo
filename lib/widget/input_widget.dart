@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../unique_file/style_dictionary_color.dart';
 
 class CheckBox extends StatefulWidget {
   const CheckBox({Key? key});
@@ -26,10 +27,12 @@ class _CheckBox extends State<CheckBox> {
 
     return Checkbox(
       side: BorderSide(
-        color: Colors.grey,
+        //color: Colors.grey, //warna border
+        color: StyleDictionary.outline,
         width: 2,
       ),
-      checkColor: Colors.green,
+      //checkColor: Colors.green,//warna checklist
+      checkColor: StyleDictionary.success,
       fillColor: MaterialStateProperty.resolveWith(getColor),
       value: isChecked,
       onChanged: (bool? value) {
