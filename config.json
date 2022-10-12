@@ -1,0 +1,50 @@
+{
+  "source": [
+    "output.json"
+  ],
+  "platforms": {
+    "flutter": {
+      "transformGroup": "flutter",
+            "buildPath": "lib/unique_file/",
+      "files": [
+          {
+              "destination": "style_dictionary.dart",
+              "format": "flutter/class.dart",
+              "className": "StyleDictionary"
+          }
+      ]
+  },
+  
+
+    "android": {
+      "transformGroup": "android",
+      "buildPath": "android/styledictionary/src/main/res/values/",
+      "files": [{
+        "destination": "style_dictionary_colors.xml",
+        "format": "android/colors"
+      },{
+        "destination": "style_dictionary_font_dimens.xml",
+        "format": "android/fontDimens"
+      },{
+        "destination": "style_dictionary_dimens.xml",
+        "format": "android/dimens"
+      },{
+        "destination": "style_dictionary_integers.xml",
+        "format": "android/integers"
+     },{
+        "destination": "style_dictionary_strings.xml",
+        "format": "android/strings"
+      }]
+    },
+
+    "android-asset": {
+      "transformGroup": "android",
+      "buildPath": "android/styledictionary/src/main/",
+      "files": [{
+        "destination": "assets/data/properties.json",
+        "format": "json"
+      }],
+      "actions": ["copy_assets"]
+    }
+  }
+}
