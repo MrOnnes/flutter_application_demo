@@ -2,10 +2,10 @@
 
 <!--
   Do not edit directly
-  Generated on Fri, 14 Oct 2022 07:06:13 GMT
+  Generated on Fri, 14 Oct 2022 07:22:16 GMT
 -->
 <resources>
-  <color name="color_primary_base">#ffffdd00</color>
+  <color name="color_primary_base">#ff1500ea</color>
   <color name="color_primary_light">#fffef5cb</color>
   <color name="color_error_base">#fff04438</color>
   <color name="color_error_light">#fffee4e2</color>

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 14 Oct 2022 07:06:13 GMT
+// Generated on Fri, 14 Oct 2022 07:22:16 GMT
 
 
 
@@ -25,7 +25,7 @@ class adrColor {
     static const linkBase = Color(0xFF1570EF);
     static const linkLight = Color(0xFFB2DDFF);
     static const outlineGray = Color(0xFF344054);
-    static const primaryBase = Color(0xFFFFDD00);
+    static const primaryBase = Color(0xFF1500EA);
     static const primaryLight = Color(0xFFFEF5CB);
     static const successBase = Color(0xFF12B76A);
     static const successLight = Color(0xFFD1FADF);
