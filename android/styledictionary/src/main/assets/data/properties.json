@@ -3079,12 +3079,12 @@
   "color": {
     "primary": {
       "base": {
-        "value": "#ff1500ea",
+        "value": "#ffffdd00",
         "type": "color",
         "filePath": "output.json",
         "isSource": true,
         "original": {
-          "value": "#1500ea",
+          "value": "#ffdd00",
           "type": "color"
         },
         "name": "color_primary_base",

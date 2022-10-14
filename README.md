@@ -22,4 +22,4 @@ Pull new token : $git pull origin master
 transform token : 
 $node token-transformer tokens.json output.json global,color,typography,shape global  --expandTypography=true
 
-create style dictionary :$node build.js   
+create style dictionary :$node build.js
