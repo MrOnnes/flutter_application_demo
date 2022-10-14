@@ -28,11 +28,11 @@ class _CheckBox extends State<CheckBox> {
     return Checkbox(
       side: BorderSide(
         //color: Colors.grey, //warna border
-        color: StyleDictionary.outline,
+        color: adrColor.outlineGray,
         width: 2,
       ),
       //checkColor: Colors.green,//warna checklist
-      checkColor: StyleDictionary.success,
+      checkColor: adrColor.successBase,
       fillColor: MaterialStateProperty.resolveWith(getColor),
       value: isChecked,
       onChanged: (bool? value) {

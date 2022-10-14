@@ -2,29 +2,29 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 12 Oct 2022 08:51:54 GMT
+  Generated on Fri, 14 Oct 2022 02:47:21 GMT
 -->
 <resources>
-  <color name="color_primary">#ffffdd00</color>
-  <color name="color_primary_container">#fffef5cb</color>
-  <color name="color_error">#fff04438</color>
-  <color name="color_error_container">#fffee4e2</color>
-  <color name="color_warning">#fff79009</color>
-  <color name="color_warning_container">#fffef0c7</color>
-  <color name="color_success">#ff12b76a</color>
-  <color name="color_success_container">#ffd1fadf</color>
-  <color name="color_link">#ff1570ef</color>
-  <color name="color_link_container">#ffb2ddff</color>
-  <color name="color_on_primary">#ff1d2939</color>
-  <color name="color_on_error_container">#fffee4e2</color>
-  <color name="color_on_warning_container">#fffef0c7</color>
-  <color name="color_on_success_container">#ffd1fadf</color>
-  <color name="color_text_dark">#ff344054</color>
+  <color name="color_primary_base">#ffffdd00</color>
+  <color name="color_primary_light">#fffef5cb</color>
+  <color name="color_error_base">#fff04438</color>
+  <color name="color_error_light">#fffee4e2</color>
+  <color name="color_warning_base">#fff79009</color>
+  <color name="color_warning_light">#fffef0c7</color>
+  <color name="color_success_base">#ff12b76a</color>
+  <color name="color_success_light">#ffd1fadf</color>
+  <color name="color_link_base">#ff1570ef</color>
+  <color name="color_link_light">#ffb2ddff</color>
+  <color name="color_gray_darker">#ff1d2939</color>
+  <color name="color_gray_dark">#ff344054</color>
+  <color name="color_gray_base">#ff98a2b3</color>
+  <color name="color_gray_light">#fff2f4f7</color>
+  <color name="color_text_black">#ff344054</color>
   <color name="color_text_gray">#ff98a2b3</color>
   <color name="color_text_white">#fffcfcfd</color>
+  <color name="color_background_placeholder">#ff98a2b3</color>
+  <color name="color_background_disabled">#fff2f4f7</color>
   <color name="color_background_white">#fffcfcfd</color>
-  <color name="color_outline">#ff344054</color>
-  <color name="color_placeholder">#ff98a2b3</color>
-  <color name="color_disabled">#fff2f4f7</color>
+  <color name="color_outline_gray">#ff344054</color>
   
 </resources>

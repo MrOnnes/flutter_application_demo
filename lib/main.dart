@@ -47,22 +47,22 @@ class _MyHomePageState extends State<MyHomePage> {
             ButtonPrimary(
               text: "Primary",
               onPressed: () {
-                ScaffoldMessenger.of(context)
-                    .showSnackBar(const SnackBar(content: Text('data')));
+                ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('Primary Button')));
               },
             ),
             ButtonSecondary(
               text: "Secondary",
               onPressed: () {
-                ScaffoldMessenger.of(context)
-                    .showSnackBar(const SnackBar(content: Text('data')));
+                ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('Secondary Button')));
               },
             ),
             ButtonText(
               text: 'Text',
               onPressed: () {
                 ScaffoldMessenger.of(context)
-                    .showSnackBar(const SnackBar(content: Text('data')));
+                    .showSnackBar(const SnackBar(content: Text('Text Button')));
               },
             ),
             CheckBox()

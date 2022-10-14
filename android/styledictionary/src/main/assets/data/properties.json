@@ -107,7 +107,7 @@
     }
   },
   "corner": {
-    "small- ": {
+    "small": {
       "value": 8,
       "type": "borderRadius",
       "filePath": "output.json",
@@ -119,14 +119,14 @@
       "name": "corner_small",
       "attributes": {
         "category": "corner",
-        "type": "small- "
+        "type": "small"
       },
       "path": [
         "corner",
-        "small- "
+        "small"
       ]
     },
-    "medium- ": {
+    "medium": {
       "value": 12,
       "type": "borderRadius",
       "filePath": "output.json",
@@ -138,14 +138,14 @@
       "name": "corner_medium",
       "attributes": {
         "category": "corner",
-        "type": "medium- "
+        "type": "medium"
       },
       "path": [
         "corner",
-        "medium- "
+        "medium"
       ]
     },
-    "large- ": {
+    "large": {
       "value": 16,
       "type": "borderRadius",
       "filePath": "output.json",
@@ -157,14 +157,14 @@
       "name": "corner_large",
       "attributes": {
         "category": "corner",
-        "type": "large- "
+        "type": "large"
       },
       "path": [
         "corner",
-        "large- "
+        "large"
       ]
     },
-    "extralarge- ": {
+    "extralarge": {
       "value": 28,
       "type": "borderRadius",
       "filePath": "output.json",
@@ -176,11 +176,11 @@
       "name": "corner_extralarge",
       "attributes": {
         "category": "corner",
-        "type": "extralarge- "
+        "type": "extralarge"
       },
       "path": [
         "corner",
-        "extralarge- "
+        "extralarge"
       ]
     }
   },
@@ -3099,329 +3099,419 @@
   },
   "color": {
     "primary": {
-      "value": "#ffffdd00",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#ffdd00",
-        "type": "color"
+      "base": {
+        "value": "#ffffdd00",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#ffdd00",
+          "type": "color"
+        },
+        "name": "color_primary_base",
+        "attributes": {
+          "category": "color",
+          "type": "primary",
+          "item": "base"
+        },
+        "path": [
+          "color",
+          "primary",
+          "base"
+        ]
       },
-      "name": "color_primary",
-      "attributes": {
-        "category": "color",
-        "type": "primary"
-      },
-      "path": [
-        "color",
-        "primary"
-      ]
-    },
-    "primary-container": {
-      "value": "#fffef5cb",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#fef5cb",
-        "type": "color"
-      },
-      "name": "color_primary_container",
-      "attributes": {
-        "category": "color",
-        "type": "primary-container"
-      },
-      "path": [
-        "color",
-        "primary-container"
-      ]
+      "light": {
+        "value": "#fffef5cb",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#fef5cb",
+          "type": "color"
+        },
+        "name": "color_primary_light",
+        "attributes": {
+          "category": "color",
+          "type": "primary",
+          "item": "light"
+        },
+        "path": [
+          "color",
+          "primary",
+          "light"
+        ]
+      }
     },
     "error": {
-      "value": "#fff04438",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#f04438",
-        "type": "color"
+      "base": {
+        "value": "#fff04438",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#f04438",
+          "type": "color"
+        },
+        "name": "color_error_base",
+        "attributes": {
+          "category": "color",
+          "type": "error",
+          "item": "base"
+        },
+        "path": [
+          "color",
+          "error",
+          "base"
+        ]
       },
-      "name": "color_error",
-      "attributes": {
-        "category": "color",
-        "type": "error"
-      },
-      "path": [
-        "color",
-        "error"
-      ]
-    },
-    "error-container": {
-      "value": "#fffee4e2",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#fee4e2",
-        "type": "color"
-      },
-      "name": "color_error_container",
-      "attributes": {
-        "category": "color",
-        "type": "error-container"
-      },
-      "path": [
-        "color",
-        "error-container"
-      ]
+      "light": {
+        "value": "#fffee4e2",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#fee4e2",
+          "type": "color"
+        },
+        "name": "color_error_light",
+        "attributes": {
+          "category": "color",
+          "type": "error",
+          "item": "light"
+        },
+        "path": [
+          "color",
+          "error",
+          "light"
+        ]
+      }
     },
     "warning": {
-      "value": "#fff79009",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#f79009",
-        "type": "color"
+      "base": {
+        "value": "#fff79009",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#f79009",
+          "type": "color"
+        },
+        "name": "color_warning_base",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "base"
+        },
+        "path": [
+          "color",
+          "warning",
+          "base"
+        ]
       },
-      "name": "color_warning",
-      "attributes": {
-        "category": "color",
-        "type": "warning"
-      },
-      "path": [
-        "color",
-        "warning"
-      ]
-    },
-    "warning-container": {
-      "value": "#fffef0c7",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#fef0c7",
-        "type": "color"
-      },
-      "name": "color_warning_container",
-      "attributes": {
-        "category": "color",
-        "type": "warning-container"
-      },
-      "path": [
-        "color",
-        "warning-container"
-      ]
+      "light": {
+        "value": "#fffef0c7",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#fef0c7",
+          "type": "color"
+        },
+        "name": "color_warning_light",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "light"
+        },
+        "path": [
+          "color",
+          "warning",
+          "light"
+        ]
+      }
     },
     "success": {
-      "value": "#ff12b76a",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#12b76a",
-        "type": "color"
+      "base": {
+        "value": "#ff12b76a",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#12b76a",
+          "type": "color"
+        },
+        "name": "color_success_base",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "base"
+        },
+        "path": [
+          "color",
+          "success",
+          "base"
+        ]
       },
-      "name": "color_success",
-      "attributes": {
-        "category": "color",
-        "type": "success"
-      },
-      "path": [
-        "color",
-        "success"
-      ]
-    },
-    "success-container": {
-      "value": "#ffd1fadf",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#d1fadf",
-        "type": "color"
-      },
-      "name": "color_success_container",
-      "attributes": {
-        "category": "color",
-        "type": "success-container"
-      },
-      "path": [
-        "color",
-        "success-container"
-      ]
+      "light": {
+        "value": "#ffd1fadf",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#d1fadf",
+          "type": "color"
+        },
+        "name": "color_success_light",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "light"
+        },
+        "path": [
+          "color",
+          "success",
+          "light"
+        ]
+      }
     },
     "link": {
-      "value": "#ff1570ef",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#1570ef",
-        "type": "color"
+      "base": {
+        "value": "#ff1570ef",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#1570ef",
+          "type": "color"
+        },
+        "name": "color_link_base",
+        "attributes": {
+          "category": "color",
+          "type": "link",
+          "item": "base"
+        },
+        "path": [
+          "color",
+          "link",
+          "base"
+        ]
       },
-      "name": "color_link",
-      "attributes": {
-        "category": "color",
-        "type": "link"
-      },
-      "path": [
-        "color",
-        "link"
-      ]
+      "light": {
+        "value": "#ffb2ddff",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#b2ddff",
+          "type": "color"
+        },
+        "name": "color_link_light",
+        "attributes": {
+          "category": "color",
+          "type": "link",
+          "item": "light"
+        },
+        "path": [
+          "color",
+          "link",
+          "light"
+        ]
+      }
     },
-    "link-container": {
-      "value": "#ffb2ddff",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#b2ddff",
-        "type": "color"
+    "gray": {
+      "darker": {
+        "value": "#ff1d2939",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#1d2939",
+          "type": "color"
+        },
+        "name": "color_gray_darker",
+        "attributes": {
+          "category": "color",
+          "type": "gray",
+          "item": "darker"
+        },
+        "path": [
+          "color",
+          "gray",
+          "darker"
+        ]
       },
-      "name": "color_link_container",
-      "attributes": {
-        "category": "color",
-        "type": "link-container"
+      "dark": {
+        "value": "#ff344054",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#344054",
+          "type": "color"
+        },
+        "name": "color_gray_dark",
+        "attributes": {
+          "category": "color",
+          "type": "gray",
+          "item": "dark"
+        },
+        "path": [
+          "color",
+          "gray",
+          "dark"
+        ]
       },
-      "path": [
-        "color",
-        "link-container"
-      ]
+      "base": {
+        "value": "#ff98a2b3",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#98a2b3",
+          "type": "color"
+        },
+        "name": "color_gray_base",
+        "attributes": {
+          "category": "color",
+          "type": "gray",
+          "item": "base"
+        },
+        "path": [
+          "color",
+          "gray",
+          "base"
+        ]
+      },
+      "light": {
+        "value": "#fff2f4f7",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#f2f4f7",
+          "type": "color"
+        },
+        "name": "color_gray_light",
+        "attributes": {
+          "category": "color",
+          "type": "gray",
+          "item": "light"
+        },
+        "path": [
+          "color",
+          "gray",
+          "light"
+        ]
+      }
     },
-    "on-primary": {
-      "value": "#ff1d2939",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#1d2939",
-        "type": "color"
+    "text": {
+      "black": {
+        "value": "#ff344054",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#344054",
+          "type": "color"
+        },
+        "name": "color_text_black",
+        "attributes": {
+          "category": "color",
+          "type": "text",
+          "item": "black"
+        },
+        "path": [
+          "color",
+          "text",
+          "black"
+        ]
       },
-      "name": "color_on_primary",
-      "attributes": {
-        "category": "color",
-        "type": "on-primary"
+      "gray": {
+        "value": "#ff98a2b3",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#98a2b3",
+          "type": "color"
+        },
+        "name": "color_text_gray",
+        "attributes": {
+          "category": "color",
+          "type": "text",
+          "item": "gray"
+        },
+        "path": [
+          "color",
+          "text",
+          "gray"
+        ]
       },
-      "path": [
-        "color",
-        "on-primary"
-      ]
-    },
-    "on-error-container": {
-      "value": "#fffee4e2",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#fee4e2",
-        "type": "color"
-      },
-      "name": "color_on_error_container",
-      "attributes": {
-        "category": "color",
-        "type": "on-error-container"
-      },
-      "path": [
-        "color",
-        "on-error-container"
-      ]
-    },
-    "on-warning-container": {
-      "value": "#fffef0c7",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#fef0c7",
-        "type": "color"
-      },
-      "name": "color_on_warning_container",
-      "attributes": {
-        "category": "color",
-        "type": "on-warning-container"
-      },
-      "path": [
-        "color",
-        "on-warning-container"
-      ]
-    },
-    "on-success-container": {
-      "value": "#ffd1fadf",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#d1fadf",
-        "type": "color"
-      },
-      "name": "color_on_success_container",
-      "attributes": {
-        "category": "color",
-        "type": "on-success-container"
-      },
-      "path": [
-        "color",
-        "on-success-container"
-      ]
-    },
-    "text-dark": {
-      "value": "#ff344054",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#344054",
-        "type": "color"
-      },
-      "name": "color_text_dark",
-      "attributes": {
-        "category": "color",
-        "type": "text-dark"
-      },
-      "path": [
-        "color",
-        "text-dark"
-      ]
-    },
-    "text-gray": {
-      "value": "#ff98a2b3",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#98a2b3",
-        "type": "color"
-      },
-      "name": "color_text_gray",
-      "attributes": {
-        "category": "color",
-        "type": "text-gray"
-      },
-      "path": [
-        "color",
-        "text-gray"
-      ]
-    },
-    "text-white": {
-      "value": "#fffcfcfd",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#fcfcfd",
-        "type": "color"
-      },
-      "name": "color_text_white",
-      "attributes": {
-        "category": "color",
-        "type": "text-white"
-      },
-      "path": [
-        "color",
-        "text-white"
-      ]
+      "white": {
+        "value": "#fffcfcfd",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#fcfcfd",
+          "type": "color"
+        },
+        "name": "color_text_white",
+        "attributes": {
+          "category": "color",
+          "type": "text",
+          "item": "white"
+        },
+        "path": [
+          "color",
+          "text",
+          "white"
+        ]
+      }
     },
     "background": {
+      "placeholder": {
+        "value": "#ff98a2b3",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#98a2b3",
+          "type": "color"
+        },
+        "name": "color_background_placeholder",
+        "attributes": {
+          "category": "color",
+          "type": "background",
+          "item": "placeholder"
+        },
+        "path": [
+          "color",
+          "background",
+          "placeholder"
+        ]
+      },
+      "disabled": {
+        "value": "#fff2f4f7",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#f2f4f7",
+          "type": "color"
+        },
+        "name": "color_background_disabled",
+        "attributes": {
+          "category": "color",
+          "type": "background",
+          "item": "disabled"
+        },
+        "path": [
+          "color",
+          "background",
+          "disabled"
+        ]
+      },
       "white": {
         "value": "#fffcfcfd",
         "type": "color",
@@ -3445,61 +3535,27 @@
       }
     },
     "outline": {
-      "value": "#ff344054",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#344054",
-        "type": "color"
-      },
-      "name": "color_outline",
-      "attributes": {
-        "category": "color",
-        "type": "outline"
-      },
-      "path": [
-        "color",
-        "outline"
-      ]
-    },
-    "placeholder": {
-      "value": "#ff98a2b3",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#98a2b3",
-        "type": "color"
-      },
-      "name": "color_placeholder",
-      "attributes": {
-        "category": "color",
-        "type": "placeholder"
-      },
-      "path": [
-        "color",
-        "placeholder"
-      ]
-    },
-    "disabled": {
-      "value": "#fff2f4f7",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#f2f4f7",
-        "type": "color"
-      },
-      "name": "color_disabled",
-      "attributes": {
-        "category": "color",
-        "type": "disabled"
-      },
-      "path": [
-        "color",
-        "disabled"
-      ]
+      "gray": {
+        "value": "#ff344054",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#344054",
+          "type": "color"
+        },
+        "name": "color_outline_gray",
+        "attributes": {
+          "category": "color",
+          "type": "outline",
+          "item": "gray"
+        },
+        "path": [
+          "color",
+          "outline",
+          "gray"
+        ]
+      }
     }
   }
 }
