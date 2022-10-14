@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'widget/button_widget.dart';
 import 'widget/input_widget.dart';
 import '../unique_file/style_dictionary_color.dart';
+import '../unique_file/style_dictionary_typo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,10 +16,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        //primaryColor: StyleDictionary.primary),
-        primarySwatch: Colors.blue,
-      ),
+      // theme: ThemeData(
+      //   primarySwatch: Colors.blue,),
       home: const MyHomePage(title: 'Token Demo test'),
     );
   }
@@ -38,7 +37,13 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        backgroundColor: adrColor.primaryBase,
+        title: Text(widget.title,
+            style: TextStyle(
+                color: adrColor.grayDarker,
+                fontFamily: adrTypo.subtitle1FontFamily,
+                fontWeight: adrTypo.subtitle1FontWeight,
+                fontSize: adrTypo.subtitle1FontSize)),
       ),
       body: Center(
         child: Column(
@@ -65,7 +70,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     .showSnackBar(const SnackBar(content: Text('Text Button')));
               },
             ),
-            CheckBox()
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [CheckBox(), LabelText(text: 'Remember Me')],
+            )
           ],
         ),
       ),

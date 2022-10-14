@@ -1,5 +1,26 @@
 import 'package:flutter/material.dart';
 import '../unique_file/style_dictionary_color.dart';
+import '../unique_file/style_dictionary_typo.dart';
+
+class LabelText extends StatelessWidget {
+  const LabelText({Key? key, required this.text}) : super(key: key);
+
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Text(
+        text,
+        style: TextStyle(
+            color: adrColor.grayDark,
+            fontFamily: adrTypo.labelFontFamily,
+            fontWeight: adrTypo.labelFontWeight,
+            fontSize: adrTypo.labelFontSize),
+      ),
+    );
+  }
+}
 
 class CheckBox extends StatefulWidget {
   const CheckBox({Key? key});
