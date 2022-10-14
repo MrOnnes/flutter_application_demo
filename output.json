@@ -27,19 +27,19 @@
     }
   },
   "corner": {
-    "small": {
+    "small- ": {
       "value": 8,
       "type": "borderRadius"
     },
-    "medium": {
+    "medium- ": {
       "value": 12,
       "type": "borderRadius"
     },
-    "large": {
+    "large- ": {
       "value": 16,
       "type": "borderRadius"
     },
-    "extralarge": {
+    "extralarge- ": {
       "value": 28,
       "type": "borderRadius"
     }
@@ -622,12 +622,6 @@
         "value": "none",
         "type": "textDecoration"
       }
-    }
-  },
-  "fontFamilies": {
-    "sans-serif": {
-      "value": "Inter",
-      "type": "fontFamilies"
     }
   },
   "color": {

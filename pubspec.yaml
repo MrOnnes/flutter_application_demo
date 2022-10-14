@@ -77,6 +77,12 @@ flutter:
           weight: 800        
         - asset: fonts/Inter-Black.ttf
           weight: 900
+    - family: DM Serif Display
+      fonts:
+        - asset: fonts/DMSerifDisplay-Regular.ttf
+        - asset: fonts/DMSerifDisplay-Italic.ttf
+          style: italic
+        
 
   # To add assets to your application, add an assets section, like this:
   # assets:

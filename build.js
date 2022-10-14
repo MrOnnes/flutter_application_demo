@@ -38,6 +38,22 @@ StyleDictionary.registerTransform({
     transformer: (token) => `'${token.value}'`,
   });
 
+  StyleDictionary.registerTransform({
+    name: "type/FontWeight",
+    type: "value",
+    transitive: true,
+    matcher: (token) => token.type === "fontWeight",
+    transformer: (token) => `FontWeight.w${token.value}`,
+  });
+
+  StyleDictionary.registerTransform({
+    name: "type/FontSize",
+    type: "value",
+    transitive: true,
+    matcher: (token) => token.type === "fontSize",
+    transformer: (token) => `${token.value}.0`,
+  });
+
 StyleDictionary.registerTransform({
     name: "type/borderRadius",
     type: "value",

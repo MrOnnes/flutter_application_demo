@@ -107,7 +107,7 @@
     }
   },
   "corner": {
-    "small": {
+    "small- ": {
       "value": 8,
       "type": "borderRadius",
       "filePath": "output.json",
@@ -119,14 +119,14 @@
       "name": "corner_small",
       "attributes": {
         "category": "corner",
-        "type": "small"
+        "type": "small- "
       },
       "path": [
         "corner",
-        "small"
+        "small- "
       ]
     },
-    "medium": {
+    "medium- ": {
       "value": 12,
       "type": "borderRadius",
       "filePath": "output.json",
@@ -138,14 +138,14 @@
       "name": "corner_medium",
       "attributes": {
         "category": "corner",
-        "type": "medium"
+        "type": "medium- "
       },
       "path": [
         "corner",
-        "medium"
+        "medium- "
       ]
     },
-    "large": {
+    "large- ": {
       "value": 16,
       "type": "borderRadius",
       "filePath": "output.json",
@@ -157,14 +157,14 @@
       "name": "corner_large",
       "attributes": {
         "category": "corner",
-        "type": "large"
+        "type": "large- "
       },
       "path": [
         "corner",
-        "large"
+        "large- "
       ]
     },
-    "extralarge": {
+    "extralarge- ": {
       "value": 28,
       "type": "borderRadius",
       "filePath": "output.json",
@@ -176,11 +176,11 @@
       "name": "corner_extralarge",
       "attributes": {
         "category": "corner",
-        "type": "extralarge"
+        "type": "extralarge- "
       },
       "path": [
         "corner",
-        "extralarge"
+        "extralarge- "
       ]
     }
   },
@@ -3074,27 +3074,6 @@
           "textDecoration"
         ]
       }
-    }
-  },
-  "fontFamilies": {
-    "sans-serif": {
-      "value": "Inter",
-      "type": "fontFamilies",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "Inter",
-        "type": "fontFamilies"
-      },
-      "name": "font_families_sans_serif",
-      "attributes": {
-        "category": "fontFamilies",
-        "type": "sans-serif"
-      },
-      "path": [
-        "fontFamilies",
-        "sans-serif"
-      ]
     }
   },
   "color": {

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_demo/unique_file/style_dictionary_typo.dart';
 import '../unique_file/style_dictionary_color.dart';
 import '../unique_file/style_dictionary_shape.dart';
 
@@ -28,9 +29,10 @@ class ButtonPrimary extends StatelessWidget {
           textAlign: TextAlign.center,
           style: TextStyle(
               //color: Colors.black, //warna text
-              color: adrColor.textBlack,
-              fontWeight: FontWeight.w600,
-              fontFamily: 'Inter'),
+              color: adrColor.grayDark,
+              fontFamily: adrTypo.button1FontFamily,
+              fontWeight: adrTypo.button1FontWeight,
+              fontSize: adrTypo.button1FontSize),
         ),
       ),
     );
@@ -61,8 +63,11 @@ class ButtonSecondary extends StatelessWidget {
         child: Text(
           text,
           textAlign: TextAlign.center,
-          style:
-              TextStyle(color: adrColor.linkBase, fontWeight: FontWeight.w500),
+          style: TextStyle(
+              color: adrColor.linkBase,
+              fontFamily: adrTypo.button1FontFamily,
+              fontWeight: adrTypo.button1FontWeight,
+              fontSize: adrTypo.button1FontSize),
         ),
       ),
     );
@@ -93,8 +98,9 @@ class ButtonText extends StatelessWidget {
           textAlign: TextAlign.center,
           style: TextStyle(
               color: adrColor.linkBase,
-              fontWeight: FontWeight.w500,
-              fontFamily: 'Inter'),
+              fontFamily: adrTypo.button1FontFamily,
+              fontWeight: adrTypo.button1FontWeight,
+              fontSize: adrTypo.button1FontSize),
         ),
       ),
     );

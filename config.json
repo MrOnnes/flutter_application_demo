@@ -41,7 +41,9 @@
     "flutter-typo": {
       "transforms": [
         "attribute/cti", "name/ti/camel", "size/flutter/remToDouble", "content/flutter/literal", 
-        "asset/flutter/literal", "font/flutter/literal","type/fontFamilies","type/TextCase","type/TextDecoration","type/LetterSpacing"],
+        "asset/flutter/literal", "font/flutter/literal","type/fontFamilies",
+        "type/TextCase","type/TextDecoration","type/LetterSpacing",
+        "type/FontWeight","type/FontSize"],
             "buildPath": "lib/unique_file/",
       "files": [
           {
