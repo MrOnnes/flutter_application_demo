@@ -627,7 +627,7 @@
   "color": {
     "primary": {
       "base": {
-        "value": "#bd00ff",
+        "value": "#ffdd00",
         "type": "color"
       },
       "light": {
