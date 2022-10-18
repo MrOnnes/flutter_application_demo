@@ -2397,12 +2397,12 @@
     },
     "button1": {
       "fontFamily": {
-        "value": "DM Serif Display",
+        "value": "Inter",
         "type": "fontFamily",
         "filePath": "output.json",
         "isSource": true,
         "original": {
-          "value": "DM Serif Display",
+          "value": "Inter",
           "type": "fontFamily"
         },
         "name": "typo_button1_font_family",

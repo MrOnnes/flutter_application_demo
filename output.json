@@ -489,7 +489,7 @@
     },
     "button1": {
       "fontFamily": {
-        "value": "DM Serif Display",
+        "value": "Inter",
         "type": "fontFamily"
       },
       "fontWeight": {

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 18 Oct 2022 07:46:17 GMT
+// Generated on Tue, 18 Oct 2022 07:48:57 GMT
 
 
 
@@ -29,7 +29,7 @@ class adrTypo {
     static const body2ParagraphSpacing = 14;
     static const body2TextCase = 'none';
     static const body2TextDecoration = 'none';
-    static const button1FontFamily = 'DM Serif Display';
+    static const button1FontFamily = 'Inter';
     static const button1FontSize = 14.0;
     static const button1FontWeight = FontWeight.w600;
     static const button1LetterSpacing = '0%';
