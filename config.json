@@ -29,10 +29,10 @@
               "destination": "style_dictionary_shape.dart",
               "format": "flutter/class.dart",
               "className": "adrShape",
-              "type": "shape",
+              "type": "corner",
               "filter":{
                 "attributes":{
-                  "category": "shape"
+                  "category": "corner"
                 }
               }
           }
