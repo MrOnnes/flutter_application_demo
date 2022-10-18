@@ -1,170 +1,6 @@
 {
-  "shape": {
-    "none": {
-      "value": 0,
-      "type": "borderRadius",
-      "description": "none",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": 0,
-        "type": "borderRadius",
-        "description": "none"
-      },
-      "name": "shape_none",
-      "attributes": {
-        "category": "shape",
-        "type": "none"
-      },
-      "path": [
-        "shape",
-        "none"
-      ]
-    },
-    "small": {
-      "value": 8,
-      "type": "borderRadius",
-      "description": "small",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": 8,
-        "type": "borderRadius",
-        "description": "small"
-      },
-      "name": "shape_small",
-      "attributes": {
-        "category": "shape",
-        "type": "small"
-      },
-      "path": [
-        "shape",
-        "small"
-      ]
-    },
-    "medium": {
-      "value": 12,
-      "type": "borderRadius",
-      "description": "medium",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": 12,
-        "type": "borderRadius",
-        "description": "medium"
-      },
-      "name": "shape_medium",
-      "attributes": {
-        "category": "shape",
-        "type": "medium"
-      },
-      "path": [
-        "shape",
-        "medium"
-      ]
-    },
-    "large": {
-      "value": 16,
-      "type": "borderRadius",
-      "description": "large",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": 16,
-        "type": "borderRadius",
-        "description": "large"
-      },
-      "name": "shape_large",
-      "attributes": {
-        "category": "shape",
-        "type": "large"
-      },
-      "path": [
-        "shape",
-        "large"
-      ]
-    },
-    "extralarge": {
-      "value": 28,
-      "type": "borderRadius",
-      "description": "extra large",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": 28,
-        "type": "borderRadius",
-        "description": "extra large"
-      },
-      "name": "shape_extralarge",
-      "attributes": {
-        "category": "shape",
-        "type": "extralarge"
-      },
-      "path": [
-        "shape",
-        "extralarge"
-      ]
-    }
-  },
   "corner": {
-    "small- ": {
-      "value": 8,
-      "type": "borderRadius",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": 8,
-        "type": "borderRadius"
-      },
-      "name": "corner_small",
-      "attributes": {
-        "category": "corner",
-        "type": "small- "
-      },
-      "path": [
-        "corner",
-        "small- "
-      ]
-    },
-    "medium- ": {
-      "value": 12,
-      "type": "borderRadius",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": 12,
-        "type": "borderRadius"
-      },
-      "name": "corner_medium",
-      "attributes": {
-        "category": "corner",
-        "type": "medium- "
-      },
-      "path": [
-        "corner",
-        "medium- "
-      ]
-    },
-    "large- ": {
-      "value": 16,
-      "type": "borderRadius",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": 16,
-        "type": "borderRadius"
-      },
-      "name": "corner_large",
-      "attributes": {
-        "category": "corner",
-        "type": "large- "
-      },
-      "path": [
-        "corner",
-        "large- "
-      ]
-    },
-    "extralarge- ": {
+    "button": {
       "value": 28,
       "type": "borderRadius",
       "filePath": "output.json",
@@ -173,14 +9,14 @@
         "value": 28,
         "type": "borderRadius"
       },
-      "name": "corner_extralarge",
+      "name": "corner_button",
       "attributes": {
         "category": "corner",
-        "type": "extralarge- "
+        "type": "button"
       },
       "path": [
         "corner",
-        "extralarge- "
+        "button"
       ]
     }
   },

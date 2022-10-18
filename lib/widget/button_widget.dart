@@ -22,7 +22,7 @@ class ButtonPrimary extends StatelessWidget {
             color: Colors.grey,
             //color: Colors.yellow, //warna button
             // borderRadius: BorderRadius.circular(100)
-            borderRadius: BorderRadius.circular(adrShape.extralarge)),
+            borderRadius: BorderRadius.circular(adrShape.button)),
         padding: EdgeInsets.symmetric(vertical: 10, horizontal: 8),
         child: Text(
           text,
@@ -58,7 +58,7 @@ class ButtonSecondary extends StatelessWidget {
             color: adrColor.backgroundWhite,
             border:
                 Border.all(color: adrColor.linkLight, width: 2), //border color
-            borderRadius: BorderRadius.circular(adrShape.extralarge)),
+            borderRadius: BorderRadius.circular(adrShape.button)),
         padding: EdgeInsets.all(8),
         child: Text(
           text,

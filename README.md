@@ -35,4 +35,4 @@ create style dictionary :$node build.js
 - Change Primary color : Change 'Colors.grey' to 'adrColor.kuningAdira' 
 - Change tick color : Change 'Colors.grey' to 'adrColor.successBase'
 - Change font Button Font : On Figma, change Button 1 font {fontFamilies.sans} to {fontFamilies.serif}
-- Change Button Radius : On Figma, change shape extralarge
+- Change Button Radius : On Figma, change corner button

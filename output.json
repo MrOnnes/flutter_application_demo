@@ -1,45 +1,6 @@
 {
-  "shape": {
-    "none": {
-      "value": 0,
-      "type": "borderRadius",
-      "description": "none"
-    },
-    "small": {
-      "value": 8,
-      "type": "borderRadius",
-      "description": "small"
-    },
-    "medium": {
-      "value": 12,
-      "type": "borderRadius",
-      "description": "medium"
-    },
-    "large": {
-      "value": 16,
-      "type": "borderRadius",
-      "description": "large"
-    },
-    "extralarge": {
-      "value": 28,
-      "type": "borderRadius",
-      "description": "extra large"
-    }
-  },
   "corner": {
-    "small- ": {
-      "value": 8,
-      "type": "borderRadius"
-    },
-    "medium- ": {
-      "value": 12,
-      "type": "borderRadius"
-    },
-    "large- ": {
-      "value": 16,
-      "type": "borderRadius"
-    },
-    "extralarge- ": {
+    "button": {
       "value": 28,
       "type": "borderRadius"
     }
