@@ -30,3 +30,8 @@ create style dictionary :$node build.js
 - [Token Transformer](https://www.npmjs.com/package/token-transformer)
 - [Style Dictionary](https://amzn.github.io/style-dictionary/#/)
 - [Custom Style Dictionary Token Transform](https://github.com/MrOnnes/flutter_application_demo/blob/master/build.js)
+
+## DEMO
+- Change Primary color : Change 'Colors.grey' to 'adrColor.kuningAdira' 
+- Change tick color : Change 'Colors.grey' to 'adrColor.successBase'
+- Change font Button Font : On Figma, change Button 1 font {fontFamilies.sans} to {fontFamilies.serif}

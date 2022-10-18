@@ -489,7 +489,7 @@
     },
     "button1": {
       "fontFamily": {
-        "value": "Inter",
+        "value": "DM Serif Display",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -726,6 +726,10 @@
         "value": "#344054",
         "type": "color"
       }
+    },
+    "KUNING-ADIRA": {
+      "value": "#ffdd00",
+      "type": "color"
     }
   }
 }

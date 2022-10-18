@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Fri, 14 Oct 2022 07:24:53 GMT
+  Generated on Tue, 18 Oct 2022 07:46:17 GMT
 -->
 <resources>
   <color name="color_primary_base">#ffffdd00</color>
@@ -26,5 +26,6 @@
   <color name="color_background_disabled">#fff2f4f7</color>
   <color name="color_background_white">#fffcfcfd</color>
   <color name="color_outline_gray">#ff344054</color>
+  <color name="color_kuning_adira">#ffffdd00</color>
   
 </resources>

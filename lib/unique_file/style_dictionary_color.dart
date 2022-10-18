@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 14 Oct 2022 07:24:53 GMT
+// Generated on Tue, 18 Oct 2022 07:46:17 GMT
 
 
 
@@ -22,6 +22,7 @@ class adrColor {
     static const grayDark = Color(0xFF344054);
     static const grayDarker = Color(0xFF1D2939);
     static const grayLight = Color(0xFFF2F4F7);
+    static const kuningAdira = Color(0xFFFFDD00);
     static const linkBase = Color(0xFF1570EF);
     static const linkLight = Color(0xFFB2DDFF);
     static const outlineGray = Color(0xFF344054);

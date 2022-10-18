@@ -2397,12 +2397,12 @@
     },
     "button1": {
       "fontFamily": {
-        "value": "Inter",
+        "value": "DM Serif Display",
         "type": "fontFamily",
         "filePath": "output.json",
         "isSource": true,
         "original": {
-          "value": "Inter",
+          "value": "DM Serif Display",
           "type": "fontFamily"
         },
         "name": "typo_button1_font_family",
@@ -3535,6 +3535,25 @@
           "gray"
         ]
       }
+    },
+    "KUNING-ADIRA": {
+      "value": "#ffffdd00",
+      "type": "color",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "#ffdd00",
+        "type": "color"
+      },
+      "name": "color_kuning_adira",
+      "attributes": {
+        "category": "color",
+        "type": "KUNING-ADIRA"
+      },
+      "path": [
+        "color",
+        "KUNING-ADIRA"
+      ]
     }
   }
 }
