@@ -2957,6 +2957,94 @@
         ]
       }
     },
+    "button1": {
+      "base": {
+        "value": "#ffffdd00",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#ffdd00",
+          "type": "color"
+        },
+        "name": "color_button1_base",
+        "attributes": {
+          "category": "color",
+          "type": "button1",
+          "item": "base"
+        },
+        "path": [
+          "color",
+          "button1",
+          "base"
+        ]
+      },
+      "text": {
+        "value": "#ff1d2939",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#1d2939",
+          "type": "color"
+        },
+        "name": "color_button1_text",
+        "attributes": {
+          "category": "color",
+          "type": "button1",
+          "item": "text"
+        },
+        "path": [
+          "color",
+          "button1",
+          "text"
+        ]
+      }
+    },
+    "button2": {
+      "base": {
+        "value": "#ffb2ddff",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#b2ddff",
+          "type": "color"
+        },
+        "name": "color_button2_base",
+        "attributes": {
+          "category": "color",
+          "type": "button2",
+          "item": "base"
+        },
+        "path": [
+          "color",
+          "button2",
+          "base"
+        ]
+      },
+      "text": {
+        "value": "#ff1570ef",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#1570ef",
+          "type": "color"
+        },
+        "name": "color_button2_text",
+        "attributes": {
+          "category": "color",
+          "type": "button2",
+          "item": "text"
+        },
+        "path": [
+          "color",
+          "button2",
+          "text"
+        ]
+      }
+    },
     "error": {
       "base": {
         "value": "#fff04438",

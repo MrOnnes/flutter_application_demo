@@ -29,7 +29,7 @@ class ButtonPrimary extends StatelessWidget {
           textAlign: TextAlign.center,
           style: TextStyle(
               //color: Colors.black, //warna text
-              color: adrColor.grayDark,
+              color: adrColor.button1Text,
               fontFamily: adrTypo.button1FontFamily,
               fontWeight: adrTypo.button1FontWeight,
               fontSize: adrTypo.button1FontSize),
@@ -56,15 +56,15 @@ class ButtonSecondary extends StatelessWidget {
         constraints: BoxConstraints(minWidth: 97),
         decoration: BoxDecoration(
             color: adrColor.backgroundWhite,
-            border:
-                Border.all(color: adrColor.linkLight, width: 2), //border color
+            border: Border.all(
+                color: adrColor.button2Base, width: 2), //border color
             borderRadius: BorderRadius.circular(adrShape.button)),
         padding: EdgeInsets.all(8),
         child: Text(
           text,
           textAlign: TextAlign.center,
           style: TextStyle(
-              color: adrColor.linkBase,
+              color: adrColor.button2Text,
               fontFamily: adrTypo.button1FontFamily,
               fontWeight: adrTypo.button1FontWeight,
               fontSize: adrTypo.button1FontSize),
@@ -97,7 +97,7 @@ class ButtonText extends StatelessWidget {
           text,
           textAlign: TextAlign.center,
           style: TextStyle(
-              color: adrColor.linkBase,
+              color: adrColor.button2Text,
               fontFamily: adrTypo.button1FontFamily,
               fontWeight: adrTypo.button1FontWeight,
               fontSize: adrTypo.button1FontSize),

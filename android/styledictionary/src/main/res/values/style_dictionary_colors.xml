@@ -2,11 +2,15 @@
 
 <!--
   Do not edit directly
-  Generated on Tue, 18 Oct 2022 08:21:05 GMT
+  Generated on Wed, 19 Oct 2022 01:45:41 GMT
 -->
 <resources>
   <color name="color_primary_base">#ffffdd00</color>
   <color name="color_primary_light">#fffef5cb</color>
+  <color name="color_button1_base">#ffffdd00</color>
+  <color name="color_button1_text">#ff1d2939</color>
+  <color name="color_button2_base">#ffb2ddff</color>
+  <color name="color_button2_text">#ff1570ef</color>
   <color name="color_error_base">#fff04438</color>
   <color name="color_error_light">#fffee4e2</color>
   <color name="color_warning_base">#fff79009</color>

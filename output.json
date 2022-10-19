@@ -596,6 +596,26 @@
         "type": "color"
       }
     },
+    "button1": {
+      "base": {
+        "value": "#ffdd00",
+        "type": "color"
+      },
+      "text": {
+        "value": "#1d2939",
+        "type": "color"
+      }
+    },
+    "button2": {
+      "base": {
+        "value": "#b2ddff",
+        "type": "color"
+      },
+      "text": {
+        "value": "#1570ef",
+        "type": "color"
+      }
+    },
     "error": {
       "base": {
         "value": "#f04438",
