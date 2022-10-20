@@ -19,7 +19,7 @@ class ButtonPrimary extends StatelessWidget {
         margin: EdgeInsets.all(4),
         constraints: BoxConstraints(minWidth: 97),
         decoration: BoxDecoration(
-            color: Colors.grey,
+            color: adrColor.kuningAdira,
             //color: Colors.yellow, //warna button
             // borderRadius: BorderRadius.circular(100)
             borderRadius: BorderRadius.circular(adrShape.button)),

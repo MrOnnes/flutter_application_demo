@@ -2,12 +2,12 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 19 Oct 2022 10:39:19 GMT
+  Generated on Thu, 20 Oct 2022 04:12:15 GMT
 -->
 <resources>
-  <color name="color_primary_base">#ffffdd00</color>
+  <color name="color_primary_base">#ff1de1d0</color>
   <color name="color_primary_light">#fffef5cb</color>
-  <color name="color_button1_base">#ffffdd00</color>
+  <color name="color_button1_base">#ff1de1d0</color>
   <color name="color_button1_text">#ff1d2939</color>
   <color name="color_button2_base">#ffb2ddff</color>
   <color name="color_button2_text">#ff1570ef</color>
@@ -30,6 +30,6 @@
   <color name="color_background_disabled">#fff2f4f7</color>
   <color name="color_background_white">#fffcfcfd</color>
   <color name="color_outline_gray">#ff344054</color>
-  <color name="color_kuning_adira">#ffffdd00</color>
+  <color name="color_kuning_adira">#ff1de1d0</color>
   
 </resources>

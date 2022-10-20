@@ -2915,12 +2915,12 @@
   "color": {
     "primary": {
       "base": {
-        "value": "#ffffdd00",
+        "value": "#ff1de1d0",
         "type": "color",
         "filePath": "output.json",
         "isSource": true,
         "original": {
-          "value": "#ffdd00",
+          "value": "#1de1d0",
           "type": "color"
         },
         "name": "color_primary_base",
@@ -2959,12 +2959,12 @@
     },
     "button1": {
       "base": {
-        "value": "#ffffdd00",
+        "value": "#ff1de1d0",
         "type": "color",
         "filePath": "output.json",
         "isSource": true,
         "original": {
-          "value": "#ffdd00",
+          "value": "#1de1d0",
           "type": "color"
         },
         "name": "color_button1_base",
@@ -3461,12 +3461,12 @@
       }
     },
     "KUNING-ADIRA": {
-      "value": "#ffffdd00",
+      "value": "#ff1de1d0",
       "type": "color",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": "#ffdd00",
+        "value": "#1de1d0",
         "type": "color"
       },
       "name": "color_kuning_adira",

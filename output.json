@@ -588,7 +588,7 @@
   "color": {
     "primary": {
       "base": {
-        "value": "#ffdd00",
+        "value": "#1de1d0",
         "type": "color"
       },
       "light": {
@@ -598,7 +598,7 @@
     },
     "button1": {
       "base": {
-        "value": "#ffdd00",
+        "value": "#1de1d0",
         "type": "color"
       },
       "text": {
@@ -709,7 +709,7 @@
       }
     },
     "KUNING-ADIRA": {
-      "value": "#ffdd00",
+      "value": "#1de1d0",
       "type": "color"
     }
   }
