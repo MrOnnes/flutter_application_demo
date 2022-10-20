@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 20 Oct 2022 04:12:15 GMT
+// Generated on Thu, 20 Oct 2022 04:16:27 GMT
 
 
 
@@ -16,7 +16,7 @@ class adrColor {
     static const backgroundDisabled = Color(0xFFF2F4F7);
     static const backgroundPlaceholder = Color(0xFF98A2B3);
     static const backgroundWhite = Color(0xFFFCFCFD);
-    static const button1Base = Color(0xFF1DE1D0);
+    static const button1Base = Color(0xFFFC5B04);
     static const button1Text = Color(0xFF1D2939);
     static const button2Base = Color(0xFFB2DDFF);
     static const button2Text = Color(0xFF1570EF);
@@ -26,11 +26,11 @@ class adrColor {
     static const grayDark = Color(0xFF344054);
     static const grayDarker = Color(0xFF1D2939);
     static const grayLight = Color(0xFFF2F4F7);
-    static const kuningAdira = Color(0xFF1DE1D0);
+    static const kuningAdira = Color(0xFFFC5B04);
     static const linkBase = Color(0xFF1570EF);
     static const linkLight = Color(0xFFB2DDFF);
     static const outlineGray = Color(0xFF344054);
-    static const primaryBase = Color(0xFF1DE1D0);
+    static const primaryBase = Color(0xFFFC5B04);
     static const primaryLight = Color(0xFFFEF5CB);
     static const successBase = Color(0xFF12B76A);
     static const successLight = Color(0xFFD1FADF);
