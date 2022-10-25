@@ -13,7 +13,7 @@ class LabelText extends StatelessWidget {
       child: Text(
         text,
         style: TextStyle(
-            color: adrColor.grayDark,
+            color: adrColor.typeButton,
             fontFamily: adrTypo.labelFontFamily,
             fontWeight: adrTypo.labelFontWeight,
             fontSize: adrTypo.labelFontSize),

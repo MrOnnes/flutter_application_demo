@@ -19,17 +19,17 @@ class ButtonPrimary extends StatelessWidget {
         margin: EdgeInsets.all(4),
         constraints: BoxConstraints(minWidth: 97),
         decoration: BoxDecoration(
-            color: adrColor.kuningAdira,
+            color: adrColor.backgroundPrimary,
             //color: Colors.yellow, //warna button
             // borderRadius: BorderRadius.circular(100)
-            borderRadius: BorderRadius.circular(adrShape.button)),
+            borderRadius: BorderRadius.circular(adrShape.buttonPrimaryRadius)),
         padding: EdgeInsets.symmetric(vertical: 10, horizontal: 8),
         child: Text(
           text,
           textAlign: TextAlign.center,
           style: TextStyle(
               //color: Colors.black, //warna text
-              color: adrColor.button1Text,
+              color: adrColor.typeButton,
               fontFamily: adrTypo.button1FontFamily,
               fontWeight: adrTypo.button1FontWeight,
               fontSize: adrTypo.button1FontSize),
@@ -55,16 +55,16 @@ class ButtonSecondary extends StatelessWidget {
         margin: EdgeInsets.all(4),
         constraints: BoxConstraints(minWidth: 97),
         decoration: BoxDecoration(
-            color: adrColor.backgroundWhite,
+            color: adrColor.backgroundLink,
             border: Border.all(
-                color: adrColor.button2Base, width: 2), //border color
-            borderRadius: BorderRadius.circular(adrShape.button)),
+                color: adrColor.outlineLink, width: 2), //border color
+            borderRadius: BorderRadius.circular(adrShape.buttonPrimaryRadius)),
         padding: EdgeInsets.all(8),
         child: Text(
           text,
           textAlign: TextAlign.center,
           style: TextStyle(
-              color: adrColor.button2Text,
+              color: adrColor.typeLink,
               fontFamily: adrTypo.button1FontFamily,
               fontWeight: adrTypo.button1FontWeight,
               fontSize: adrTypo.button1FontSize),
@@ -97,7 +97,7 @@ class ButtonText extends StatelessWidget {
           text,
           textAlign: TextAlign.center,
           style: TextStyle(
-              color: adrColor.button2Text,
+              color: adrColor.typeLink,
               fontFamily: adrTypo.button1FontFamily,
               fontWeight: adrTypo.button1FontWeight,
               fontSize: adrTypo.button1FontSize),

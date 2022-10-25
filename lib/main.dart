@@ -37,10 +37,10 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: adrColor.kuningAdira,
+        backgroundColor: adrColor.backgroundPrimary,
         title: Text(widget.title,
             style: TextStyle(
-                color: adrColor.grayDarker,
+                color: adrColor.typeNormal,
                 fontFamily: adrTypo.subtitle1FontFamily,
                 fontWeight: adrTypo.subtitle1FontWeight,
                 fontSize: adrTypo.subtitle1FontSize)),
