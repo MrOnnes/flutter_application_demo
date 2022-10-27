@@ -14,14 +14,12 @@ class ButtonPrimary extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: onPressed,
-      borderRadius: BorderRadius.circular(100), //border radius focus
+      borderRadius: BorderRadius.circular(100),
       child: Container(
         margin: EdgeInsets.all(4),
         constraints: BoxConstraints(minWidth: 97),
         decoration: BoxDecoration(
-            color: adrColor.backgroundPrimary,
-            //color: Colors.yellow, //warna button
-            // borderRadius: BorderRadius.circular(100)
+            color: adrColor.backgroundPrimary, // << CHANGE HERE
             borderRadius: BorderRadius.circular(adrShape.buttonPrimaryRadius)),
         padding: EdgeInsets.symmetric(vertical: 10, horizontal: 8),
         child: Text(

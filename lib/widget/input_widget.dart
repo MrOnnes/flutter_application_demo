@@ -52,8 +52,7 @@ class _CheckBox extends State<CheckBox> {
         color: adrColor.outlineGray,
         width: 2,
       ),
-      //checkColor: Colors.green,//warna checklist
-      checkColor: Colors.grey,
+      checkColor: Colors.grey, // << CHANGE HERE
       fillColor: MaterialStateProperty.resolveWith(getColor),
       value: isChecked,
       onChanged: (bool? value) {
