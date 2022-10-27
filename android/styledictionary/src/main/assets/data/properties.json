@@ -129,6 +129,27 @@
           "primary"
         ]
       },
+      "kuning-adira": {
+        "value": "#ffffdd00",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#FFDD00",
+          "type": "color"
+        },
+        "name": "color_background_kuning_adira",
+        "attributes": {
+          "category": "color",
+          "type": "background",
+          "item": "kuning-adira"
+        },
+        "path": [
+          "color",
+          "background",
+          "kuning-adira"
+        ]
+      },
       "primary-light": {
         "value": "#fffef5cb",
         "type": "color",
@@ -383,447 +404,428 @@
           "disable"
         ]
       }
+    },
+    "kuningadira": {
+      "value": "#ffffdd00",
+      "type": "color",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFDD00",
+        "type": "color"
+      },
+      "name": "color_kuningadira",
+      "attributes": {
+        "category": "color",
+        "type": "kuningadira"
+      },
+      "path": [
+        "color",
+        "kuningadira"
+      ]
     }
   },
-  "shape": {
-    "button": {
-      "primary": {
-        "radius": {
-          "value": 100,
-          "type": "borderRadius",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 100,
-            "type": "borderRadius"
-          },
-          "name": "shape_button_primary_radius",
-          "attributes": {
-            "category": "shape",
-            "type": "button",
-            "item": "primary",
-            "subitem": "radius"
-          },
-          "path": [
-            "shape",
-            "button",
-            "primary",
-            "radius"
-          ]
-        }
-      },
-      "outlined": {
-        "radius": {
-          "value": 100,
-          "type": "borderRadius",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 100,
-            "type": "borderRadius"
-          },
-          "name": "shape_button_outlined_radius",
-          "attributes": {
-            "category": "shape",
-            "type": "button",
-            "item": "outlined",
-            "subitem": "radius"
-          },
-          "path": [
-            "shape",
-            "button",
-            "outlined",
-            "radius"
-          ]
-        }
-      },
-      "text": {
-        "radius": {
-          "value": 100,
-          "type": "borderRadius",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 100,
-            "type": "borderRadius"
-          },
-          "name": "shape_button_text_radius",
-          "attributes": {
-            "category": "shape",
-            "type": "button",
-            "item": "text",
-            "subitem": "radius"
-          },
-          "path": [
-            "shape",
-            "button",
-            "text",
-            "radius"
-          ]
-        }
-      },
-      "sidebar": {
-        "radius": {
-          "value": 12,
-          "type": "borderRadius",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 12,
-            "type": "borderRadius"
-          },
-          "name": "shape_button_sidebar_radius",
-          "attributes": {
-            "category": "shape",
-            "type": "button",
-            "item": "sidebar",
-            "subitem": "radius"
-          },
-          "path": [
-            "shape",
-            "button",
-            "sidebar",
-            "radius"
-          ]
-        },
-        "gap": {
-          "value": 8,
-          "type": "spacing",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "name": "shape_button_sidebar_gap",
-          "attributes": {
-            "category": "shape",
-            "type": "button",
-            "item": "sidebar",
-            "subitem": "gap"
-          },
-          "path": [
-            "shape",
-            "button",
-            "sidebar",
-            "gap"
-          ]
-        },
-        "pad-all": {
-          "value": 4,
-          "type": "spacing",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 4,
-            "type": "spacing"
-          },
-          "name": "shape_button_sidebar_pad_all",
-          "attributes": {
-            "category": "shape",
-            "type": "button",
-            "item": "sidebar",
-            "subitem": "pad-all"
-          },
-          "path": [
-            "shape",
-            "button",
-            "sidebar",
-            "pad-all"
-          ]
-        },
-        "pad-side": {
-          "value": 16,
-          "type": "spacing",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 16,
-            "type": "spacing"
-          },
-          "name": "shape_button_sidebar_pad_side",
-          "attributes": {
-            "category": "shape",
-            "type": "button",
-            "item": "sidebar",
-            "subitem": "pad-side"
-          },
-          "path": [
-            "shape",
-            "button",
-            "sidebar",
-            "pad-side"
-          ]
-        }
-      },
-      "button": {
-        "pad-side": {
-          "value": 24,
-          "type": "spacing",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 24,
-            "type": "spacing"
-          },
-          "name": "shape_button_button_pad_side",
-          "attributes": {
-            "category": "shape",
-            "type": "button",
-            "item": "button",
-            "subitem": "pad-side"
-          },
-          "path": [
-            "shape",
-            "button",
-            "button",
-            "pad-side"
-          ]
-        },
-        "pad-top": {
-          "value": 8,
-          "type": "spacing",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "name": "shape_button_button_pad_top",
-          "attributes": {
-            "category": "shape",
-            "type": "button",
-            "item": "button",
-            "subitem": "pad-top"
-          },
-          "path": [
-            "shape",
-            "button",
-            "button",
-            "pad-top"
-          ]
-        },
-        "pad-top-variation": {
-          "value": 12,
-          "type": "spacing",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 12,
-            "type": "spacing"
-          },
-          "name": "shape_button_button_pad_top_variation",
-          "attributes": {
-            "category": "shape",
-            "type": "button",
-            "item": "button",
-            "subitem": "pad-top-variation"
-          },
-          "path": [
-            "shape",
-            "button",
-            "button",
-            "pad-top-variation"
-          ]
-        },
-        "gap": {
-          "value": 8,
-          "type": "spacing",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "name": "shape_button_button_gap",
-          "attributes": {
-            "category": "shape",
-            "type": "button",
-            "item": "button",
-            "subitem": "gap"
-          },
-          "path": [
-            "shape",
-            "button",
-            "button",
-            "gap"
-          ]
-        }
-      },
-      "border": {
-        "value": 2,
-        "type": "borderWidth",
+  "button": {
+    "primary": {
+      "radius": {
+        "value": 100,
+        "type": "borderRadius",
         "filePath": "output.json",
         "isSource": true,
         "original": {
-          "value": 2,
-          "type": "borderWidth"
+          "value": 100,
+          "type": "borderRadius"
         },
-        "name": "shape_button_border",
+        "name": "button_primary_radius",
         "attributes": {
-          "category": "shape",
-          "type": "button",
-          "item": "border"
+          "category": "button",
+          "type": "primary",
+          "item": "radius"
         },
         "path": [
-          "shape",
           "button",
-          "border"
+          "primary",
+          "radius"
         ]
       }
     },
-    "input": {
-      "checkbox": {
-        "radius": {
-          "value": 4,
-          "type": "borderRadius",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 4,
-            "type": "borderRadius"
-          },
-          "name": "shape_input_checkbox_radius",
-          "attributes": {
-            "category": "shape",
-            "type": "input",
-            "item": "checkbox",
-            "subitem": "radius"
-          },
-          "path": [
-            "shape",
-            "input",
-            "checkbox",
-            "radius"
-          ]
-        }
-      },
-      "chips": {
-        "radius": {
-          "value": 4,
-          "type": "borderRadius",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 4,
-            "type": "borderRadius"
-          },
-          "name": "shape_input_chips_radius",
-          "attributes": {
-            "category": "shape",
-            "type": "input",
-            "item": "chips",
-            "subitem": "radius"
-          },
-          "path": [
-            "shape",
-            "input",
-            "chips",
-            "radius"
-          ]
-        }
-      },
-      "field": {
-        "radius": {
-          "value": 4,
-          "type": "borderRadius",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 4,
-            "type": "borderRadius"
-          },
-          "name": "shape_input_field_radius",
-          "attributes": {
-            "category": "shape",
-            "type": "input",
-            "item": "field",
-            "subitem": "radius"
-          },
-          "path": [
-            "shape",
-            "input",
-            "field",
-            "radius"
-          ]
-        }
+    "outlined": {
+      "radius": {
+        "value": 100,
+        "type": "borderRadius",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 100,
+          "type": "borderRadius"
+        },
+        "name": "button_outlined_radius",
+        "attributes": {
+          "category": "button",
+          "type": "outlined",
+          "item": "radius"
+        },
+        "path": [
+          "button",
+          "outlined",
+          "radius"
+        ]
       }
     },
-    "display": {
-      "cards": {
-        "radius": {
+    "text": {
+      "radius": {
+        "value": 100,
+        "type": "borderRadius",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 100,
+          "type": "borderRadius"
+        },
+        "name": "button_text_radius",
+        "attributes": {
+          "category": "button",
+          "type": "text",
+          "item": "radius"
+        },
+        "path": [
+          "button",
+          "text",
+          "radius"
+        ]
+      }
+    },
+    "sidebar": {
+      "radius": {
+        "value": 12,
+        "type": "borderRadius",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
           "value": 12,
-          "type": "borderRadius",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 12,
-            "type": "borderRadius"
-          },
-          "name": "shape_display_cards_radius",
-          "attributes": {
-            "category": "shape",
-            "type": "display",
-            "item": "cards",
-            "subitem": "radius"
-          },
-          "path": [
-            "shape",
-            "display",
-            "cards",
-            "radius"
-          ]
-        }
+          "type": "borderRadius"
+        },
+        "name": "button_sidebar_radius",
+        "attributes": {
+          "category": "button",
+          "type": "sidebar",
+          "item": "radius"
+        },
+        "path": [
+          "button",
+          "sidebar",
+          "radius"
+        ]
       },
-      "dialogs": {
-        "radius": {
-          "value": 28,
-          "type": "borderRadius",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 28,
-            "type": "borderRadius"
-          },
-          "name": "shape_display_dialogs_radius",
-          "attributes": {
-            "category": "shape",
-            "type": "display",
-            "item": "dialogs",
-            "subitem": "radius"
-          },
-          "path": [
-            "shape",
-            "display",
-            "dialogs",
-            "radius"
-          ]
-        }
-      },
-      "tabs": {
-        "radius": {
+      "gap": {
+        "value": 8,
+        "type": "spacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
           "value": 8,
-          "type": "borderRadius",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": 8,
-            "type": "borderRadius"
-          },
-          "name": "shape_display_tabs_radius",
-          "attributes": {
-            "category": "shape",
-            "type": "display",
-            "item": "tabs",
-            "subitem": "radius"
-          },
-          "path": [
-            "shape",
-            "display",
-            "tabs",
-            "radius"
-          ]
-        }
+          "type": "spacing"
+        },
+        "name": "button_sidebar_gap",
+        "attributes": {
+          "category": "button",
+          "type": "sidebar",
+          "item": "gap"
+        },
+        "path": [
+          "button",
+          "sidebar",
+          "gap"
+        ]
+      },
+      "pad-all": {
+        "value": 4,
+        "type": "spacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 4,
+          "type": "spacing"
+        },
+        "name": "button_sidebar_pad_all",
+        "attributes": {
+          "category": "button",
+          "type": "sidebar",
+          "item": "pad-all"
+        },
+        "path": [
+          "button",
+          "sidebar",
+          "pad-all"
+        ]
+      },
+      "pad-side": {
+        "value": 16,
+        "type": "spacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "name": "button_sidebar_pad_side",
+        "attributes": {
+          "category": "button",
+          "type": "sidebar",
+          "item": "pad-side"
+        },
+        "path": [
+          "button",
+          "sidebar",
+          "pad-side"
+        ]
+      }
+    },
+    "button": {
+      "pad-side": {
+        "value": 24,
+        "type": "spacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "spacing"
+        },
+        "name": "button_button_pad_side",
+        "attributes": {
+          "category": "button",
+          "type": "button",
+          "item": "pad-side"
+        },
+        "path": [
+          "button",
+          "button",
+          "pad-side"
+        ]
+      },
+      "pad-top": {
+        "value": 8,
+        "type": "spacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 8,
+          "type": "spacing"
+        },
+        "name": "button_button_pad_top",
+        "attributes": {
+          "category": "button",
+          "type": "button",
+          "item": "pad-top"
+        },
+        "path": [
+          "button",
+          "button",
+          "pad-top"
+        ]
+      },
+      "pad-top-variation": {
+        "value": 12,
+        "type": "spacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 12,
+          "type": "spacing"
+        },
+        "name": "button_button_pad_top_variation",
+        "attributes": {
+          "category": "button",
+          "type": "button",
+          "item": "pad-top-variation"
+        },
+        "path": [
+          "button",
+          "button",
+          "pad-top-variation"
+        ]
+      },
+      "gap": {
+        "value": 8,
+        "type": "spacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 8,
+          "type": "spacing"
+        },
+        "name": "button_button_gap",
+        "attributes": {
+          "category": "button",
+          "type": "button",
+          "item": "gap"
+        },
+        "path": [
+          "button",
+          "button",
+          "gap"
+        ]
+      }
+    },
+    "border": {
+      "value": 2,
+      "type": "borderWidth",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 2,
+        "type": "borderWidth"
+      },
+      "name": "button_border",
+      "attributes": {
+        "category": "button",
+        "type": "border"
+      },
+      "path": [
+        "button",
+        "border"
+      ]
+    }
+  },
+  "input": {
+    "checkbox": {
+      "radius": {
+        "value": 4,
+        "type": "borderRadius",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 4,
+          "type": "borderRadius"
+        },
+        "name": "input_checkbox_radius",
+        "attributes": {
+          "category": "input",
+          "type": "checkbox",
+          "item": "radius"
+        },
+        "path": [
+          "input",
+          "checkbox",
+          "radius"
+        ]
+      }
+    },
+    "chips": {
+      "radius": {
+        "value": 4,
+        "type": "borderRadius",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 4,
+          "type": "borderRadius"
+        },
+        "name": "input_chips_radius",
+        "attributes": {
+          "category": "input",
+          "type": "chips",
+          "item": "radius"
+        },
+        "path": [
+          "input",
+          "chips",
+          "radius"
+        ]
+      }
+    },
+    "field": {
+      "radius": {
+        "value": 4,
+        "type": "borderRadius",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 4,
+          "type": "borderRadius"
+        },
+        "name": "input_field_radius",
+        "attributes": {
+          "category": "input",
+          "type": "field",
+          "item": "radius"
+        },
+        "path": [
+          "input",
+          "field",
+          "radius"
+        ]
+      }
+    }
+  },
+  "display": {
+    "cards": {
+      "radius": {
+        "value": 12,
+        "type": "borderRadius",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 12,
+          "type": "borderRadius"
+        },
+        "name": "display_cards_radius",
+        "attributes": {
+          "category": "display",
+          "type": "cards",
+          "item": "radius"
+        },
+        "path": [
+          "display",
+          "cards",
+          "radius"
+        ]
+      }
+    },
+    "dialogs": {
+      "radius": {
+        "value": 28,
+        "type": "borderRadius",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 28,
+          "type": "borderRadius"
+        },
+        "name": "display_dialogs_radius",
+        "attributes": {
+          "category": "display",
+          "type": "dialogs",
+          "item": "radius"
+        },
+        "path": [
+          "display",
+          "dialogs",
+          "radius"
+        ]
+      }
+    },
+    "tabs": {
+      "radius": {
+        "value": 8,
+        "type": "borderRadius",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 8,
+          "type": "borderRadius"
+        },
+        "name": "display_tabs_radius",
+        "attributes": {
+          "category": "display",
+          "type": "tabs",
+          "item": "radius"
+        },
+        "path": [
+          "display",
+          "tabs",
+          "radius"
+        ]
       }
     }
   },

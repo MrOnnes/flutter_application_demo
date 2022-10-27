@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Tue, 25 Oct 2022 10:45:59 GMT
+  Generated on Thu, 27 Oct 2022 04:28:08 GMT
 -->
 <resources>
   <color name="color_type_normal">#ff1d2939</color>
@@ -11,6 +11,7 @@
   <color name="color_type_button">#ff344054</color>
   <color name="color_type_placeholder">#ff98a2b3</color>
   <color name="color_background_primary">#ffffdd00</color>
+  <color name="color_background_kuning_adira">#ffffdd00</color>
   <color name="color_background_primary_light">#fffef5cb</color>
   <color name="color_background_light">#fffcfcfd</color>
   <color name="color_background_dark">#ff1d2939</color>
@@ -23,5 +24,6 @@
   <color name="color_outline_gray">#ff98a2b3</color>
   <color name="color_outline_link">#ffb2ddff</color>
   <color name="color_outline_disable">#ff98a2b3</color>
+  <color name="color_kuningadira">#ffffdd00</color>
   
 </resources>

@@ -19,7 +19,7 @@ class ButtonPrimary extends StatelessWidget {
         margin: EdgeInsets.all(4),
         constraints: BoxConstraints(minWidth: 97),
         decoration: BoxDecoration(
-            color: adrColor.backgroundPrimary, // << CHANGE HERE
+            color: Colors.grey, // << CHANGE HERE
             borderRadius: BorderRadius.circular(adrShape.buttonPrimaryRadius)),
         padding: EdgeInsets.symmetric(vertical: 10, horizontal: 8),
         child: Text(

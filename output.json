@@ -27,6 +27,10 @@
         "value": "#FFDD00",
         "type": "color"
       },
+      "kuning-adira": {
+        "value": "#FFDD00",
+        "type": "color"
+      },
       "primary-light": {
         "value": "#FEF5CB",
         "type": "color"
@@ -77,107 +81,109 @@
         "value": "#98A2B3",
         "type": "color"
       }
+    },
+    "kuningadira": {
+      "value": "#FFDD00",
+      "type": "color"
     }
   },
-  "shape": {
+  "button": {
+    "primary": {
+      "radius": {
+        "value": 100,
+        "type": "borderRadius"
+      }
+    },
+    "outlined": {
+      "radius": {
+        "value": 100,
+        "type": "borderRadius"
+      }
+    },
+    "text": {
+      "radius": {
+        "value": 100,
+        "type": "borderRadius"
+      }
+    },
+    "sidebar": {
+      "radius": {
+        "value": 12,
+        "type": "borderRadius"
+      },
+      "gap": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "pad-all": {
+        "value": 4,
+        "type": "spacing"
+      },
+      "pad-side": {
+        "value": 16,
+        "type": "spacing"
+      }
+    },
     "button": {
-      "primary": {
-        "radius": {
-          "value": 100,
-          "type": "borderRadius"
-        }
+      "pad-side": {
+        "value": 24,
+        "type": "spacing"
       },
-      "outlined": {
-        "radius": {
-          "value": 100,
-          "type": "borderRadius"
-        }
+      "pad-top": {
+        "value": 8,
+        "type": "spacing"
       },
-      "text": {
-        "radius": {
-          "value": 100,
-          "type": "borderRadius"
-        }
+      "pad-top-variation": {
+        "value": 12,
+        "type": "spacing"
       },
-      "sidebar": {
-        "radius": {
-          "value": 12,
-          "type": "borderRadius"
-        },
-        "gap": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "pad-all": {
-          "value": 4,
-          "type": "spacing"
-        },
-        "pad-side": {
-          "value": 16,
-          "type": "spacing"
-        }
-      },
-      "button": {
-        "pad-side": {
-          "value": 24,
-          "type": "spacing"
-        },
-        "pad-top": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "pad-top-variation": {
-          "value": 12,
-          "type": "spacing"
-        },
-        "gap": {
-          "value": 8,
-          "type": "spacing"
-        }
-      },
-      "border": {
-        "value": 2,
-        "type": "borderWidth"
+      "gap": {
+        "value": 8,
+        "type": "spacing"
       }
     },
-    "input": {
-      "checkbox": {
-        "radius": {
-          "value": 4,
-          "type": "borderRadius"
-        }
-      },
-      "chips": {
-        "radius": {
-          "value": 4,
-          "type": "borderRadius"
-        }
-      },
-      "field": {
-        "radius": {
-          "value": 4,
-          "type": "borderRadius"
-        }
+    "border": {
+      "value": 2,
+      "type": "borderWidth"
+    }
+  },
+  "input": {
+    "checkbox": {
+      "radius": {
+        "value": 4,
+        "type": "borderRadius"
       }
     },
-    "display": {
-      "cards": {
-        "radius": {
-          "value": 12,
-          "type": "borderRadius"
-        }
-      },
-      "dialogs": {
-        "radius": {
-          "value": 28,
-          "type": "borderRadius"
-        }
-      },
-      "tabs": {
-        "radius": {
-          "value": 8,
-          "type": "borderRadius"
-        }
+    "chips": {
+      "radius": {
+        "value": 4,
+        "type": "borderRadius"
+      }
+    },
+    "field": {
+      "radius": {
+        "value": 4,
+        "type": "borderRadius"
+      }
+    }
+  },
+  "display": {
+    "cards": {
+      "radius": {
+        "value": 12,
+        "type": "borderRadius"
+      }
+    },
+    "dialogs": {
+      "radius": {
+        "value": 28,
+        "type": "borderRadius"
+      }
+    },
+    "tabs": {
+      "radius": {
+        "value": 8,
+        "type": "borderRadius"
       }
     }
   },
