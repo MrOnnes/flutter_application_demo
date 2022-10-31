@@ -19,7 +19,7 @@ class ColorDictionary {
   static const primaryLight = Color(0xFFFEF5CB);
   static const successBase = Color(0xFF12B76A);
   static const successLight = Color(0xFFD1FADF);
-  static const textBlack = adrColor.typeNormal;
+  static const textBlack = adrColor.textLink;
   static const textGray = Color(0xFF98A2B3);
   static const textWhite = Color(0xFFFCFCFD);
   static const warningBase = Color(0xFFF79009);

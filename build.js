@@ -6,6 +6,10 @@ console.log('\n==============================================');
 
 // REGISTER THE CUSTOM TRANFORMS
 
+function isSize(token) {
+  return token.attributes.category === 'size';
+}
+
 StyleDictionary.registerTransform({
     name: "type/fontFamilies",
     type: "value",
@@ -60,6 +64,17 @@ StyleDictionary.registerTransform({
     transitive: true,
     matcher: (token) => token.type === "borderRadius",
     transformer: (token) => `${token.value}.0`,
+  });
+
+
+StyleDictionary.registerTransform({
+    name: "size/flutter/pxToDouble",
+    type: "value",
+    transitive: true,
+    matcher: isSize,
+    transformer: function (token) {
+      return (parseFloat(token.value, 10)).toFixed(2);
+    }
   });
 
 

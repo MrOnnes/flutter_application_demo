@@ -1,6 +1,6 @@
 {
   "color": {
-    "type": {
+    "text": {
       "normal": {
         "value": "#1D2939",
         "type": "color"
@@ -24,10 +24,6 @@
     },
     "background": {
       "primary": {
-        "value": "#FFDD00",
-        "type": "color"
-      },
-      "kuning-adira": {
         "value": "#FFDD00",
         "type": "color"
       },
@@ -64,7 +60,7 @@
         "type": "color"
       }
     },
-    "outline": {
+    "border": {
       "button-secondary": {
         "value": "#FCFCFD",
         "type": "color"
@@ -81,29 +77,47 @@
         "value": "#98A2B3",
         "type": "color"
       }
-    },
-    "kuningadira": {
-      "value": "#FFDD00",
-      "type": "color"
     }
   },
-  "button": {
-    "primary": {
-      "radius": {
-        "value": 100,
-        "type": "borderRadius"
-      }
-    },
-    "outlined": {
-      "radius": {
-        "value": 100,
-        "type": "borderRadius"
-      }
-    },
-    "text": {
-      "radius": {
-        "value": 100,
-        "type": "borderRadius"
+  "size": {
+    "button": {
+      "primary": {
+        "radius": {
+          "value": 100,
+          "type": "borderRadius"
+        }
+      },
+      "outlined": {
+        "radius": {
+          "value": 100,
+          "type": "borderRadius"
+        }
+      },
+      "text": {
+        "radius": {
+          "value": 100,
+          "type": "borderRadius"
+        }
+      },
+      "pad-side": {
+        "value": 24,
+        "type": "spacing"
+      },
+      "pad-top": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "pad-top-variation": {
+        "value": 12,
+        "type": "spacing"
+      },
+      "gap": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "border": {
+        "value": 2,
+        "type": "borderWidth"
       }
     },
     "sidebar": {
@@ -124,66 +138,93 @@
         "type": "spacing"
       }
     },
-    "button": {
-      "pad-side": {
+    "input": {
+      "checkbox": {
+        "radius": {
+          "value": 4,
+          "type": "borderRadius"
+        }
+      },
+      "chips": {
+        "radius": {
+          "value": 4,
+          "type": "borderRadius"
+        }
+      },
+      "field": {
+        "radius": {
+          "value": 4,
+          "type": "borderRadius"
+        }
+      }
+    },
+    "display": {
+      "cards": {
+        "radius": {
+          "value": 12,
+          "type": "borderRadius"
+        }
+      },
+      "dialogs": {
+        "radius": {
+          "value": 28,
+          "type": "borderRadius"
+        }
+      },
+      "tabs": {
+        "radius": {
+          "value": 8,
+          "type": "borderRadius"
+        }
+      }
+    },
+    "fontSize": {
+      "12": {
+        "value": 12,
+        "type": "fontSizes",
+        "description": "12"
+      },
+      "14": {
+        "value": 14,
+        "type": "fontSizes",
+        "description": "14"
+      },
+      "16": {
+        "value": 16,
+        "type": "fontSizes",
+        "description": "16"
+      },
+      "18": {
+        "value": 18,
+        "type": "fontSizes"
+      },
+      "20": {
+        "value": 20,
+        "type": "fontSizes"
+      },
+      "24": {
         "value": 24,
-        "type": "spacing"
+        "type": "fontSizes"
       },
-      "pad-top": {
-        "value": 8,
-        "type": "spacing"
+      "30": {
+        "value": 30,
+        "type": "fontSizes"
       },
-      "pad-top-variation": {
-        "value": 12,
-        "type": "spacing"
+      "36": {
+        "value": 36,
+        "type": "fontSizes"
       },
-      "gap": {
-        "value": 8,
-        "type": "spacing"
-      }
-    },
-    "border": {
-      "value": 2,
-      "type": "borderWidth"
-    }
-  },
-  "input": {
-    "checkbox": {
-      "radius": {
-        "value": 4,
-        "type": "borderRadius"
-      }
-    },
-    "chips": {
-      "radius": {
-        "value": 4,
-        "type": "borderRadius"
-      }
-    },
-    "field": {
-      "radius": {
-        "value": 4,
-        "type": "borderRadius"
-      }
-    }
-  },
-  "display": {
-    "cards": {
-      "radius": {
-        "value": 12,
-        "type": "borderRadius"
-      }
-    },
-    "dialogs": {
-      "radius": {
-        "value": 28,
-        "type": "borderRadius"
-      }
-    },
-    "tabs": {
-      "radius": {
-        "value": 8,
-        "type": "borderRadius"
+      "48": {
+        "value": 48,
+        "type": "fontSizes"
+      },
+      "60": {
+        "value": 60,
+        "type": "fontSizes"
+      },
+      "72": {
+        "value": 72,
+        "type": "fontSizes"
       }
     }
   },

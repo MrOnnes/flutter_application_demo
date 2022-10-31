@@ -2,16 +2,15 @@
 
 <!--
   Do not edit directly
-  Generated on Sat, 29 Oct 2022 03:49:40 GMT
+  Generated on Sat, 29 Oct 2022 04:45:50 GMT
 -->
 <resources>
-  <color name="color_type_normal">#ff1d2939</color>
-  <color name="color_type_white">#fffcfcfd</color>
-  <color name="color_type_link">#ff1570ef</color>
-  <color name="color_type_button">#ff344054</color>
-  <color name="color_type_placeholder">#ff98a2b3</color>
+  <color name="color_text_normal">#ff1d2939</color>
+  <color name="color_text_white">#fffcfcfd</color>
+  <color name="color_text_link">#ff1570ef</color>
+  <color name="color_text_button">#ff344054</color>
+  <color name="color_text_placeholder">#ff98a2b3</color>
   <color name="color_background_primary">#ffffdd00</color>
-  <color name="color_background_kuning_adira">#ffffdd00</color>
   <color name="color_background_primary_light">#fffef5cb</color>
   <color name="color_background_light">#fffcfcfd</color>
   <color name="color_background_dark">#ff1d2939</color>
@@ -20,10 +19,9 @@
   <color name="color_background_link">#fff5faff</color>
   <color name="color_background_success">#ff12b76a</color>
   <color name="color_background_disable">#fffcfcfd</color>
-  <color name="color_outline_button_secondary">#fffcfcfd</color>
-  <color name="color_outline_gray">#ff98a2b3</color>
-  <color name="color_outline_link">#ffb2ddff</color>
-  <color name="color_outline_disable">#ff98a2b3</color>
-  <color name="color_kuningadira">#ffffdd00</color>
+  <color name="color_border_button_secondary">#fffcfcfd</color>
+  <color name="color_border_gray">#ff98a2b3</color>
+  <color name="color_border_link">#ffb2ddff</color>
+  <color name="color_border_disable">#ff98a2b3</color>
   
 </resources>

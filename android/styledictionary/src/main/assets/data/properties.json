@@ -1,6 +1,6 @@
 {
   "color": {
-    "type": {
+    "text": {
       "normal": {
         "value": "#ff1d2939",
         "type": "color",
@@ -10,15 +10,15 @@
           "value": "#1D2939",
           "type": "color"
         },
-        "name": "color_type_normal",
+        "name": "color_text_normal",
         "attributes": {
           "category": "color",
-          "type": "type",
+          "type": "text",
           "item": "normal"
         },
         "path": [
           "color",
-          "type",
+          "text",
           "normal"
         ]
       },
@@ -31,15 +31,15 @@
           "value": "#FCFCFD",
           "type": "color"
         },
-        "name": "color_type_white",
+        "name": "color_text_white",
         "attributes": {
           "category": "color",
-          "type": "type",
+          "type": "text",
           "item": "white"
         },
         "path": [
           "color",
-          "type",
+          "text",
           "white"
         ]
       },
@@ -52,15 +52,15 @@
           "value": "#1570EF",
           "type": "color"
         },
-        "name": "color_type_link",
+        "name": "color_text_link",
         "attributes": {
           "category": "color",
-          "type": "type",
+          "type": "text",
           "item": "link"
         },
         "path": [
           "color",
-          "type",
+          "text",
           "link"
         ]
       },
@@ -73,15 +73,15 @@
           "value": "#344054",
           "type": "color"
         },
-        "name": "color_type_button",
+        "name": "color_text_button",
         "attributes": {
           "category": "color",
-          "type": "type",
+          "type": "text",
           "item": "button"
         },
         "path": [
           "color",
-          "type",
+          "text",
           "button"
         ]
       },
@@ -94,15 +94,15 @@
           "value": "#98A2B3",
           "type": "color"
         },
-        "name": "color_type_placeholder",
+        "name": "color_text_placeholder",
         "attributes": {
           "category": "color",
-          "type": "type",
+          "type": "text",
           "item": "placeholder"
         },
         "path": [
           "color",
-          "type",
+          "text",
           "placeholder"
         ]
       }
@@ -127,27 +127,6 @@
           "color",
           "background",
           "primary"
-        ]
-      },
-      "kuning-adira": {
-        "value": "#ffffdd00",
-        "type": "color",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": "#FFDD00",
-          "type": "color"
-        },
-        "name": "color_background_kuning_adira",
-        "attributes": {
-          "category": "color",
-          "type": "background",
-          "item": "kuning-adira"
-        },
-        "path": [
-          "color",
-          "background",
-          "kuning-adira"
         ]
       },
       "primary-light": {
@@ -319,7 +298,7 @@
         ]
       }
     },
-    "outline": {
+    "border": {
       "button-secondary": {
         "value": "#fffcfcfd",
         "type": "color",
@@ -329,15 +308,15 @@
           "value": "#FCFCFD",
           "type": "color"
         },
-        "name": "color_outline_button_secondary",
+        "name": "color_border_button_secondary",
         "attributes": {
           "category": "color",
-          "type": "outline",
+          "type": "border",
           "item": "button-secondary"
         },
         "path": [
           "color",
-          "outline",
+          "border",
           "button-secondary"
         ]
       },
@@ -350,15 +329,15 @@
           "value": "#98A2B3",
           "type": "color"
         },
-        "name": "color_outline_gray",
+        "name": "color_border_gray",
         "attributes": {
           "category": "color",
-          "type": "outline",
+          "type": "border",
           "item": "gray"
         },
         "path": [
           "color",
-          "outline",
+          "border",
           "gray"
         ]
       },
@@ -371,15 +350,15 @@
           "value": "#B2DDFF",
           "type": "color"
         },
-        "name": "color_outline_link",
+        "name": "color_border_link",
         "attributes": {
           "category": "color",
-          "type": "outline",
+          "type": "border",
           "item": "link"
         },
         "path": [
           "color",
-          "outline",
+          "border",
           "link"
         ]
       },
@@ -392,198 +371,99 @@
           "value": "#98A2B3",
           "type": "color"
         },
-        "name": "color_outline_disable",
+        "name": "color_border_disable",
         "attributes": {
           "category": "color",
-          "type": "outline",
+          "type": "border",
           "item": "disable"
         },
         "path": [
           "color",
-          "outline",
+          "border",
           "disable"
         ]
       }
-    },
-    "kuningadira": {
-      "value": "#ffffdd00",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFDD00",
-        "type": "color"
-      },
-      "name": "color_kuningadira",
-      "attributes": {
-        "category": "color",
-        "type": "kuningadira"
-      },
-      "path": [
-        "color",
-        "kuningadira"
-      ]
     }
   },
-  "button": {
-    "primary": {
-      "radius": {
-        "value": 100,
-        "type": "borderRadius",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": 100,
-          "type": "borderRadius"
-        },
-        "name": "button_primary_radius",
-        "attributes": {
-          "category": "button",
-          "type": "primary",
-          "item": "radius"
-        },
-        "path": [
-          "button",
-          "primary",
-          "radius"
-        ]
-      }
-    },
-    "outlined": {
-      "radius": {
-        "value": 100,
-        "type": "borderRadius",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": 100,
-          "type": "borderRadius"
-        },
-        "name": "button_outlined_radius",
-        "attributes": {
-          "category": "button",
-          "type": "outlined",
-          "item": "radius"
-        },
-        "path": [
-          "button",
-          "outlined",
-          "radius"
-        ]
-      }
-    },
-    "text": {
-      "radius": {
-        "value": 100,
-        "type": "borderRadius",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": 100,
-          "type": "borderRadius"
-        },
-        "name": "button_text_radius",
-        "attributes": {
-          "category": "button",
-          "type": "text",
-          "item": "radius"
-        },
-        "path": [
-          "button",
-          "text",
-          "radius"
-        ]
-      }
-    },
-    "sidebar": {
-      "radius": {
-        "value": 12,
-        "type": "borderRadius",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": 12,
-          "type": "borderRadius"
-        },
-        "name": "button_sidebar_radius",
-        "attributes": {
-          "category": "button",
-          "type": "sidebar",
-          "item": "radius"
-        },
-        "path": [
-          "button",
-          "sidebar",
-          "radius"
-        ]
-      },
-      "gap": {
-        "value": 8,
-        "type": "spacing",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": 8,
-          "type": "spacing"
-        },
-        "name": "button_sidebar_gap",
-        "attributes": {
-          "category": "button",
-          "type": "sidebar",
-          "item": "gap"
-        },
-        "path": [
-          "button",
-          "sidebar",
-          "gap"
-        ]
-      },
-      "pad-all": {
-        "value": 4,
-        "type": "spacing",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": 4,
-          "type": "spacing"
-        },
-        "name": "button_sidebar_pad_all",
-        "attributes": {
-          "category": "button",
-          "type": "sidebar",
-          "item": "pad-all"
-        },
-        "path": [
-          "button",
-          "sidebar",
-          "pad-all"
-        ]
-      },
-      "pad-side": {
-        "value": 16,
-        "type": "spacing",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "name": "button_sidebar_pad_side",
-        "attributes": {
-          "category": "button",
-          "type": "sidebar",
-          "item": "pad-side"
-        },
-        "path": [
-          "button",
-          "sidebar",
-          "pad-side"
-        ]
-      }
-    },
+  "size": {
     "button": {
+      "primary": {
+        "radius": {
+          "value": "1600.00dp",
+          "type": "borderRadius",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 100,
+            "type": "borderRadius"
+          },
+          "name": "size_button_primary_radius",
+          "attributes": {
+            "category": "size",
+            "type": "button",
+            "item": "primary",
+            "subitem": "radius"
+          },
+          "path": [
+            "size",
+            "button",
+            "primary",
+            "radius"
+          ]
+        }
+      },
+      "outlined": {
+        "radius": {
+          "value": "1600.00dp",
+          "type": "borderRadius",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 100,
+            "type": "borderRadius"
+          },
+          "name": "size_button_outlined_radius",
+          "attributes": {
+            "category": "size",
+            "type": "button",
+            "item": "outlined",
+            "subitem": "radius"
+          },
+          "path": [
+            "size",
+            "button",
+            "outlined",
+            "radius"
+          ]
+        }
+      },
+      "text": {
+        "radius": {
+          "value": "1600.00dp",
+          "type": "borderRadius",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 100,
+            "type": "borderRadius"
+          },
+          "name": "size_button_text_radius",
+          "attributes": {
+            "category": "size",
+            "type": "button",
+            "item": "text",
+            "subitem": "radius"
+          },
+          "path": [
+            "size",
+            "button",
+            "text",
+            "radius"
+          ]
+        }
+      },
       "pad-side": {
-        "value": 24,
+        "value": "384.00dp",
         "type": "spacing",
         "filePath": "output.json",
         "isSource": true,
@@ -591,20 +471,20 @@
           "value": 24,
           "type": "spacing"
         },
-        "name": "button_button_pad_side",
+        "name": "size_button_pad_side",
         "attributes": {
-          "category": "button",
+          "category": "size",
           "type": "button",
           "item": "pad-side"
         },
         "path": [
-          "button",
+          "size",
           "button",
           "pad-side"
         ]
       },
       "pad-top": {
-        "value": 8,
+        "value": "128.00dp",
         "type": "spacing",
         "filePath": "output.json",
         "isSource": true,
@@ -612,20 +492,20 @@
           "value": 8,
           "type": "spacing"
         },
-        "name": "button_button_pad_top",
+        "name": "size_button_pad_top",
         "attributes": {
-          "category": "button",
+          "category": "size",
           "type": "button",
           "item": "pad-top"
         },
         "path": [
-          "button",
+          "size",
           "button",
           "pad-top"
         ]
       },
       "pad-top-variation": {
-        "value": 12,
+        "value": "192.00dp",
         "type": "spacing",
         "filePath": "output.json",
         "isSource": true,
@@ -633,20 +513,20 @@
           "value": 12,
           "type": "spacing"
         },
-        "name": "button_button_pad_top_variation",
+        "name": "size_button_pad_top_variation",
         "attributes": {
-          "category": "button",
+          "category": "size",
           "type": "button",
           "item": "pad-top-variation"
         },
         "path": [
-          "button",
+          "size",
           "button",
           "pad-top-variation"
         ]
       },
       "gap": {
-        "value": 8,
+        "value": "128.00dp",
         "type": "spacing",
         "filePath": "output.json",
         "isSource": true,
@@ -654,114 +534,43 @@
           "value": 8,
           "type": "spacing"
         },
-        "name": "button_button_gap",
+        "name": "size_button_gap",
         "attributes": {
-          "category": "button",
+          "category": "size",
           "type": "button",
           "item": "gap"
         },
         "path": [
-          "button",
+          "size",
           "button",
           "gap"
         ]
-      }
-    },
-    "border": {
-      "value": 2,
-      "type": "borderWidth",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": 2,
-        "type": "borderWidth"
       },
-      "name": "button_border",
-      "attributes": {
-        "category": "button",
-        "type": "border"
-      },
-      "path": [
-        "button",
-        "border"
-      ]
-    }
-  },
-  "input": {
-    "checkbox": {
-      "radius": {
-        "value": 4,
-        "type": "borderRadius",
+      "border": {
+        "value": "32.00dp",
+        "type": "borderWidth",
         "filePath": "output.json",
         "isSource": true,
         "original": {
-          "value": 4,
-          "type": "borderRadius"
+          "value": 2,
+          "type": "borderWidth"
         },
-        "name": "input_checkbox_radius",
+        "name": "size_button_border",
         "attributes": {
-          "category": "input",
-          "type": "checkbox",
-          "item": "radius"
+          "category": "size",
+          "type": "button",
+          "item": "border"
         },
         "path": [
-          "input",
-          "checkbox",
-          "radius"
+          "size",
+          "button",
+          "border"
         ]
       }
     },
-    "chips": {
+    "sidebar": {
       "radius": {
-        "value": 4,
-        "type": "borderRadius",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": 4,
-          "type": "borderRadius"
-        },
-        "name": "input_chips_radius",
-        "attributes": {
-          "category": "input",
-          "type": "chips",
-          "item": "radius"
-        },
-        "path": [
-          "input",
-          "chips",
-          "radius"
-        ]
-      }
-    },
-    "field": {
-      "radius": {
-        "value": 4,
-        "type": "borderRadius",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": 4,
-          "type": "borderRadius"
-        },
-        "name": "input_field_radius",
-        "attributes": {
-          "category": "input",
-          "type": "field",
-          "item": "radius"
-        },
-        "path": [
-          "input",
-          "field",
-          "radius"
-        ]
-      }
-    }
-  },
-  "display": {
-    "cards": {
-      "radius": {
-        "value": 12,
+        "value": "192.00dp",
         "type": "borderRadius",
         "filePath": "output.json",
         "isSource": true,
@@ -769,62 +578,472 @@
           "value": 12,
           "type": "borderRadius"
         },
-        "name": "display_cards_radius",
+        "name": "size_sidebar_radius",
         "attributes": {
-          "category": "display",
-          "type": "cards",
+          "category": "size",
+          "type": "sidebar",
           "item": "radius"
         },
         "path": [
-          "display",
-          "cards",
+          "size",
+          "sidebar",
           "radius"
         ]
-      }
-    },
-    "dialogs": {
-      "radius": {
-        "value": 28,
-        "type": "borderRadius",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": 28,
-          "type": "borderRadius"
-        },
-        "name": "display_dialogs_radius",
-        "attributes": {
-          "category": "display",
-          "type": "dialogs",
-          "item": "radius"
-        },
-        "path": [
-          "display",
-          "dialogs",
-          "radius"
-        ]
-      }
-    },
-    "tabs": {
-      "radius": {
-        "value": 8,
-        "type": "borderRadius",
+      },
+      "gap": {
+        "value": "128.00dp",
+        "type": "spacing",
         "filePath": "output.json",
         "isSource": true,
         "original": {
           "value": 8,
-          "type": "borderRadius"
+          "type": "spacing"
         },
-        "name": "display_tabs_radius",
+        "name": "size_sidebar_gap",
         "attributes": {
-          "category": "display",
-          "type": "tabs",
-          "item": "radius"
+          "category": "size",
+          "type": "sidebar",
+          "item": "gap"
         },
         "path": [
-          "display",
-          "tabs",
-          "radius"
+          "size",
+          "sidebar",
+          "gap"
+        ]
+      },
+      "pad-all": {
+        "value": "64.00dp",
+        "type": "spacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 4,
+          "type": "spacing"
+        },
+        "name": "size_sidebar_pad_all",
+        "attributes": {
+          "category": "size",
+          "type": "sidebar",
+          "item": "pad-all"
+        },
+        "path": [
+          "size",
+          "sidebar",
+          "pad-all"
+        ]
+      },
+      "pad-side": {
+        "value": "256.00dp",
+        "type": "spacing",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "spacing"
+        },
+        "name": "size_sidebar_pad_side",
+        "attributes": {
+          "category": "size",
+          "type": "sidebar",
+          "item": "pad-side"
+        },
+        "path": [
+          "size",
+          "sidebar",
+          "pad-side"
+        ]
+      }
+    },
+    "input": {
+      "checkbox": {
+        "radius": {
+          "value": "64.00dp",
+          "type": "borderRadius",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "name": "size_input_checkbox_radius",
+          "attributes": {
+            "category": "size",
+            "type": "input",
+            "item": "checkbox",
+            "subitem": "radius"
+          },
+          "path": [
+            "size",
+            "input",
+            "checkbox",
+            "radius"
+          ]
+        }
+      },
+      "chips": {
+        "radius": {
+          "value": "64.00dp",
+          "type": "borderRadius",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "name": "size_input_chips_radius",
+          "attributes": {
+            "category": "size",
+            "type": "input",
+            "item": "chips",
+            "subitem": "radius"
+          },
+          "path": [
+            "size",
+            "input",
+            "chips",
+            "radius"
+          ]
+        }
+      },
+      "field": {
+        "radius": {
+          "value": "64.00dp",
+          "type": "borderRadius",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 4,
+            "type": "borderRadius"
+          },
+          "name": "size_input_field_radius",
+          "attributes": {
+            "category": "size",
+            "type": "input",
+            "item": "field",
+            "subitem": "radius"
+          },
+          "path": [
+            "size",
+            "input",
+            "field",
+            "radius"
+          ]
+        }
+      }
+    },
+    "display": {
+      "cards": {
+        "radius": {
+          "value": "192.00dp",
+          "type": "borderRadius",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 12,
+            "type": "borderRadius"
+          },
+          "name": "size_display_cards_radius",
+          "attributes": {
+            "category": "size",
+            "type": "display",
+            "item": "cards",
+            "subitem": "radius"
+          },
+          "path": [
+            "size",
+            "display",
+            "cards",
+            "radius"
+          ]
+        }
+      },
+      "dialogs": {
+        "radius": {
+          "value": "448.00dp",
+          "type": "borderRadius",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 28,
+            "type": "borderRadius"
+          },
+          "name": "size_display_dialogs_radius",
+          "attributes": {
+            "category": "size",
+            "type": "display",
+            "item": "dialogs",
+            "subitem": "radius"
+          },
+          "path": [
+            "size",
+            "display",
+            "dialogs",
+            "radius"
+          ]
+        }
+      },
+      "tabs": {
+        "radius": {
+          "value": "128.00dp",
+          "type": "borderRadius",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 8,
+            "type": "borderRadius"
+          },
+          "name": "size_display_tabs_radius",
+          "attributes": {
+            "category": "size",
+            "type": "display",
+            "item": "tabs",
+            "subitem": "radius"
+          },
+          "path": [
+            "size",
+            "display",
+            "tabs",
+            "radius"
+          ]
+        }
+      }
+    },
+    "fontSize": {
+      "12": {
+        "value": "192.00dp",
+        "type": "fontSizes",
+        "description": "12",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 12,
+          "type": "fontSizes",
+          "description": "12"
+        },
+        "name": "size_font_size_12",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "12"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "12"
+        ]
+      },
+      "14": {
+        "value": "224.00dp",
+        "type": "fontSizes",
+        "description": "14",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 14,
+          "type": "fontSizes",
+          "description": "14"
+        },
+        "name": "size_font_size_14",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "14"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "14"
+        ]
+      },
+      "16": {
+        "value": "256.00dp",
+        "type": "fontSizes",
+        "description": "16",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "fontSizes",
+          "description": "16"
+        },
+        "name": "size_font_size_16",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "16"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "16"
+        ]
+      },
+      "18": {
+        "value": "288.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 18,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_18",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "18"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "18"
+        ]
+      },
+      "20": {
+        "value": "320.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 20,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_20",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "20"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "20"
+        ]
+      },
+      "24": {
+        "value": "384.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_24",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "24"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "24"
+        ]
+      },
+      "30": {
+        "value": "480.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 30,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_30",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "30"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "30"
+        ]
+      },
+      "36": {
+        "value": "576.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 36,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_36",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "36"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "36"
+        ]
+      },
+      "48": {
+        "value": "768.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 48,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_48",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "48"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "48"
+        ]
+      },
+      "60": {
+        "value": "960.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 60,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_60",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "60"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "60"
+        ]
+      },
+      "72": {
+        "value": "1152.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 72,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_72",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "72"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "72"
         ]
       }
     }

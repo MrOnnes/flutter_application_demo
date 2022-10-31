@@ -13,7 +13,7 @@ class LabelText extends StatelessWidget {
       child: Text(
         text,
         style: TextStyle(
-            color: adrColor.typeButton,
+            color: adrColor.textButton,
             fontFamily: adrTypo.labelFontFamily,
             fontWeight: adrTypo.labelFontWeight,
             fontSize: adrTypo.labelFontSize),
@@ -49,7 +49,7 @@ class _CheckBox extends State<CheckBox> {
     return Checkbox(
       side: BorderSide(
         //color: Colors.grey, //warna border
-        color: adrColor.outlineGray,
+        color: adrColor.borderGray,
         width: 2,
       ),
       checkColor: Colors.grey, // << CHANGE HERE

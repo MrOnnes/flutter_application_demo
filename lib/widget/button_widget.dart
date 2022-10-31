@@ -19,7 +19,7 @@ class ButtonPrimary extends StatelessWidget {
         margin: EdgeInsets.all(4),
         constraints: BoxConstraints(minWidth: 97),
         decoration: BoxDecoration(
-            color: Colors.grey, // << CHANGE HERE
+            color: adrColor.backgroundPrimary, // << CHANGE HERE
             borderRadius: BorderRadius.circular(adrShape.buttonPrimaryRadius)),
         padding: EdgeInsets.symmetric(vertical: 10, horizontal: 8),
         child: Text(
@@ -27,7 +27,7 @@ class ButtonPrimary extends StatelessWidget {
           textAlign: TextAlign.center,
           style: TextStyle(
               //color: Colors.black, //warna text
-              color: adrColor.typeButton,
+              color: adrColor.textButton,
               fontFamily: adrTypo.button1FontFamily,
               fontWeight: adrTypo.button1FontWeight,
               fontSize: adrTypo.button1FontSize),
@@ -54,15 +54,15 @@ class ButtonSecondary extends StatelessWidget {
         constraints: BoxConstraints(minWidth: 97),
         decoration: BoxDecoration(
             color: adrColor.backgroundLink,
-            border: Border.all(
-                color: adrColor.outlineLink, width: 2), //border color
+            border:
+                Border.all(color: adrColor.borderLink, width: 2), //border color
             borderRadius: BorderRadius.circular(adrShape.buttonPrimaryRadius)),
         padding: EdgeInsets.all(8),
         child: Text(
           text,
           textAlign: TextAlign.center,
           style: TextStyle(
-              color: adrColor.typeLink,
+              color: adrColor.textLink,
               fontFamily: adrTypo.button1FontFamily,
               fontWeight: adrTypo.button1FontWeight,
               fontSize: adrTypo.button1FontSize),
@@ -95,7 +95,7 @@ class ButtonText extends StatelessWidget {
           text,
           textAlign: TextAlign.center,
           style: TextStyle(
-              color: adrColor.typeLink,
+              color: adrColor.textLink,
               fontFamily: adrTypo.button1FontFamily,
               fontWeight: adrTypo.button1FontWeight,
               fontSize: adrTypo.button1FontSize),

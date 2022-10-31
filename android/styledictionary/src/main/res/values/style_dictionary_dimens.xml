@@ -2,8 +2,37 @@
 
 <!--
   Do not edit directly
-  Generated on Sat, 29 Oct 2022 03:49:40 GMT
+  Generated on Sat, 29 Oct 2022 04:45:50 GMT
 -->
 <resources>
+  <dimen name="size_button_primary_radius">1600.00dp</dimen>
+  <dimen name="size_button_outlined_radius">1600.00dp</dimen>
+  <dimen name="size_button_text_radius">1600.00dp</dimen>
+  <dimen name="size_button_pad_side">384.00dp</dimen>
+  <dimen name="size_button_pad_top">128.00dp</dimen>
+  <dimen name="size_button_pad_top_variation">192.00dp</dimen>
+  <dimen name="size_button_gap">128.00dp</dimen>
+  <dimen name="size_button_border">32.00dp</dimen>
+  <dimen name="size_sidebar_radius">192.00dp</dimen>
+  <dimen name="size_sidebar_gap">128.00dp</dimen>
+  <dimen name="size_sidebar_pad_all">64.00dp</dimen>
+  <dimen name="size_sidebar_pad_side">256.00dp</dimen>
+  <dimen name="size_input_checkbox_radius">64.00dp</dimen>
+  <dimen name="size_input_chips_radius">64.00dp</dimen>
+  <dimen name="size_input_field_radius">64.00dp</dimen>
+  <dimen name="size_display_cards_radius">192.00dp</dimen>
+  <dimen name="size_display_dialogs_radius">448.00dp</dimen>
+  <dimen name="size_display_tabs_radius">128.00dp</dimen>
+  <dimen name="size_font_size_12">192.00dp</dimen>
+  <dimen name="size_font_size_14">224.00dp</dimen>
+  <dimen name="size_font_size_16">256.00dp</dimen>
+  <dimen name="size_font_size_18">288.00dp</dimen>
+  <dimen name="size_font_size_20">320.00dp</dimen>
+  <dimen name="size_font_size_24">384.00dp</dimen>
+  <dimen name="size_font_size_30">480.00dp</dimen>
+  <dimen name="size_font_size_36">576.00dp</dimen>
+  <dimen name="size_font_size_48">768.00dp</dimen>
+  <dimen name="size_font_size_60">960.00dp</dimen>
+  <dimen name="size_font_size_72">1152.00dp</dimen>
   
 </resources>
