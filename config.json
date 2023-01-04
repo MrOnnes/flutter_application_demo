@@ -22,7 +22,8 @@
     },
 
     "flutter-shape": {
-      "transforms": ["attribute/cti", "name/ti/camel", "size/flutter/pxToDouble", "content/flutter/literal", 
+      "transforms": ["attribute/cti", "name/ti/camel", "size/flutter/pxToDouble", 
+      "content/flutter/literal", 
       "asset/flutter/literal", "font/flutter/literal"],
             "buildPath": "lib/unique_file/",
       "files": [

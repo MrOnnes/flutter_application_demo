@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../unique_file/style_dictionary_color.dart';
-import '../unique_file/style_dictionary_typo.dart';
+import '../tokens/dart/dart_color.dart';
+import '../tokens/dart/dart_font.dart';
 
 class LabelText extends StatelessWidget {
   const LabelText({Key? key, required this.text}) : super(key: key);
@@ -12,11 +12,11 @@ class LabelText extends StatelessWidget {
     return Container(
       child: Text(
         text,
-        style: TextStyle(
-            color: adrColor.textButton,
-            fontFamily: adrTypo.labelFontFamily,
-            fontWeight: adrTypo.labelFontWeight,
-            fontSize: adrTypo.labelFontSize),
+        style: const TextStyle(
+            color: adrColor.textNormal,
+            fontFamily: adrFont.labelFontFamily,
+            fontWeight: adrFont.weightRegular,
+            fontSize: adrFont.labelFontSize),
       ),
     );
   }
@@ -47,12 +47,11 @@ class _CheckBox extends State<CheckBox> {
     }
 
     return Checkbox(
-      side: BorderSide(
-        //color: Colors.grey, //warna border
-        color: adrColor.borderGray,
+      side: const BorderSide(
+        color: adrColor.borderBase,
         width: 2,
       ),
-      checkColor: Colors.grey, // << CHANGE HERE
+      checkColor: Colors.green, // << CHANGE HERE
       fillColor: MaterialStateProperty.resolveWith(getColor),
       value: isChecked,
       onChanged: (bool? value) {

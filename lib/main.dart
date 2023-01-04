@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'widget/button_widget.dart';
-import 'widget/input_widget.dart';
+import 'widgets/button_widget.dart';
+import 'widgets/input_widget.dart';
 import '../unique_file/style_dictionary_color.dart';
 import '../unique_file/style_dictionary_typo.dart';
 
@@ -49,22 +49,23 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            ButtonPrimary(
-              text: "Primary",
+            AdButtonPrimary(
+              text: 'testing',
               onPressed: () {
                 ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(content: Text('Primary Button')));
               },
             ),
-            ButtonSecondary(
-              text: "Secondary",
+            AdButtonSecondary(
+              text: 'testingSecondarytext lebih panjang lagi',
               onPressed: () {
                 ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('Secondary Button')));
+                    const SnackBar(content: Text('Primary Button')));
               },
             ),
-            ButtonText(
+            AdButtonText(
               text: 'Text',
+              // danger: true,
               onPressed: () {
                 ScaffoldMessenger.of(context)
                     .showSnackBar(const SnackBar(content: Text('Text Button')));
@@ -73,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [CheckBox(), LabelText(text: 'Remember Me')],
-            )
+            ),
           ],
         ),
       ),
