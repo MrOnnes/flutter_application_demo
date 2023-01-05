@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'widgets/button_widget.dart';
 import 'widgets/input_widget.dart';
 import '../unique_file/style_dictionary_color.dart';
@@ -50,12 +51,20 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             AdButtonPrimary(
-              text: 'testing',
+              text: 'Primary Button',
               onPressed: () {
                 ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(content: Text('Primary Button')));
               },
             ),
+            AdButtonPrimaryIcon(
+                text: 'Button Icon',
+                danger: false,
+                onPressed: () {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(content: Text('Primary Button')));
+                },
+                faIcon: FontAwesomeIcons.circleCheck),
             AdButtonSecondary(
               text: 'testingSecondarytext lebih panjang lagi',
               onPressed: () {
@@ -63,9 +72,33 @@ class _MyHomePageState extends State<MyHomePage> {
                     const SnackBar(content: Text('Primary Button')));
               },
             ),
+            AdButtonSecondaryIcon(
+                text: 'Secondary Icon',
+                danger: false,
+                onPressed: () {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(content: Text('Primary Button')));
+                },
+                icons: FontAwesomeIcons.circleCheck),
             AdButtonText(
               text: 'Text',
               // danger: true,
+              onPressed: () {
+                ScaffoldMessenger.of(context)
+                    .showSnackBar(const SnackBar(content: Text('Text Button')));
+              },
+            ),
+            AdButtonTextIcon(
+                text: "IconText",
+                danger: false,
+                onPressed: () {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(content: Text('Text Button')));
+                },
+                icons: FontAwesomeIcons.circleCheck),
+            AdButtonIcon(
+              icons: Icons.people,
+              danger: true,
               onPressed: () {
                 ScaffoldMessenger.of(context)
                     .showSnackBar(const SnackBar(content: Text('Text Button')));
