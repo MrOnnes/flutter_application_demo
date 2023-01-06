@@ -37,6 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //resizeToAvoidBottomInset: false,
       appBar: AppBar(
         backgroundColor: adrColor.backgroundPrimary, // << CHANGE HERE
         title: Text(widget.title,
@@ -47,68 +48,54 @@ class _MyHomePageState extends State<MyHomePage> {
                 fontSize: adrTypo.subtitle1FontSize)),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            AdButtonPrimary(
-              text: 'Primary Button',
-              onPressed: () {
-                ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('Primary Button')));
-              },
-            ),
-            AdButtonPrimaryIcon(
-                text: 'Button Icon',
-                danger: false,
-                onPressed: () {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text('Primary Button')));
-                },
-                faIcon: FontAwesomeIcons.circleCheck),
-            AdButtonSecondary(
-              text: 'testingSecondarytext lebih panjang lagi',
-              onPressed: () {
-                ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('Primary Button')));
-              },
-            ),
-            AdButtonSecondaryIcon(
-                text: 'Secondary Icon',
-                danger: false,
-                onPressed: () {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text('Primary Button')));
-                },
-                icons: FontAwesomeIcons.circleCheck),
-            AdButtonText(
-              text: 'Text',
-              // danger: true,
-              onPressed: () {
-                ScaffoldMessenger.of(context)
-                    .showSnackBar(const SnackBar(content: Text('Text Button')));
-              },
-            ),
-            AdButtonTextIcon(
-                text: "IconText",
-                danger: false,
-                onPressed: () {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text('Text Button')));
-                },
-                icons: FontAwesomeIcons.circleCheck),
-            AdButtonIcon(
-              icons: Icons.people,
-              danger: true,
-              onPressed: () {
-                ScaffoldMessenger.of(context)
-                    .showSnackBar(const SnackBar(content: Text('Text Button')));
-              },
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [CheckBox(), LabelText(text: 'Remember Me')],
-            ),
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              AdButtonPrimary(
+                text: 'Primary Button v2',
+                //danger: true,
+                onPressed: () {},
+              ),
+              AdButtonPrimaryIcon(
+                  text: 'Button Icon v2',
+                  danger: false,
+                  onPressed: () {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(content: Text('Primary Button')));
+                  },
+                  icon: FontAwesomeIcons.circleCheck),
+              AdButtonSecondary(
+                text: 'Secondary v2',
+                //danger: true,
+                onPressed: () {},
+              ),
+              AdButtonSecondaryIcon(
+                  text: 'Secondary Icon v2',
+                  //danger: true,
+                  onPressed: () {},
+                  icon: FontAwesomeIcons.circleCheck),
+              AdButtonText(
+                text: 'Text v2',
+                //danger: true,
+                onPressed: () {},
+              ),
+              AdButtonTextIcon(
+                  text: "IconText v2",
+                  //danger: true,
+                  onPressed: () {},
+                  icon: FontAwesomeIcons.circleCheck),
+              AdButtonIcon(
+                icon: Icons.people,
+                //danger: true,
+                onPressed: () {},
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [CheckBox(), LabelText(text: 'Remember Me')],
+              ),
+            ],
+          ),
         ),
       ),
     );

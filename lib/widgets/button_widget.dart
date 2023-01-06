@@ -13,7 +13,7 @@ class AdButtonPrimary extends StatefulWidget {
   }) : super(key: key);
 
   final String text;
-  final Function() onPressed;
+  final VoidCallback? onPressed;
   final bool? danger;
 
   @override
@@ -21,67 +21,53 @@ class AdButtonPrimary extends StatefulWidget {
 }
 
 class _AdButtonPrimaryState extends State<AdButtonPrimary> {
-  bool isHovered = false;
   bool? _danger;
-
-  void onEntered(bool isHovered) => setState(() {
-        this.isHovered = isHovered;
-      });
+  VoidCallback? _onPressed;
 
   void initState() {
     super.initState();
 
     _danger = widget.danger;
+    _onPressed = widget.onPressed;
   }
 
   @override
   Widget build(BuildContext context) {
-    final buttonColor = isHovered
-        ? adrColor.backgroundButtonPrimaryHover
+    const nullButtonPrimaryFillColor = adrColor.backgroundDisable;
+    const nullButtonTextColor = adrColor.textDisable;
+    final notNullButtonPrimaryFillColor = (_danger == !false)
+        ? adrColor.backgroundButtonErrorActive
         : adrColor.backgroundButtonPrimaryActive;
-    final buttonColorError = isHovered
-        ? adrColor.backgroundButtonErrorHover
-        : adrColor.backgroundButtonErrorActive;
+    final notNullButtonPrimaryTextColor =
+        (_danger == !false) ? adrColor.textWhite : adrColor.textButtonPrimary;
 
-    return MouseRegion(
-        onEnter: (event) => onEntered(true),
-        onExit: (event) => onEntered(false),
-        child: AnimatedContainer(
-          duration: const Duration(milliseconds: 100),
-          child: InkWell(
-            onTap: widget.onPressed,
-            borderRadius: BorderRadius.circular(100),
-            child: Container(
-              margin: const EdgeInsets.all(8),
-              constraints: const BoxConstraints(minWidth: 97),
-              decoration: BoxDecoration(
-                  color: (_danger == !false)
-                      ? buttonColorError
-                      : buttonColor, // << CHANGE HERE
-                  borderRadius: BorderRadius.circular(adrSize.buttonRadius)),
-              padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 24),
-              child: Container(
-                constraints: BoxConstraints(minHeight: 24.0),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      widget.text,
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                          color: (_danger == !false)
-                              ? adrColor.textWhite
-                              : adrColor.textButtonPrimary,
-                          fontFamily: adrFont.button1FontFamily,
-                          fontWeight: adrFont.weightSemibold,
-                          fontSize: adrFont.button1FontSize),
-                    ),
-                  ],
-                ),
-              ),
-            ),
+    return Container(
+      constraints: const BoxConstraints(minHeight: 40.0),
+      child: RawMaterialButton(
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(adrSize.buttonRadius)),
+        onPressed: widget.onPressed,
+        fillColor: (_onPressed == null)
+            ? nullButtonPrimaryFillColor
+            : notNullButtonPrimaryFillColor,
+        hoverColor: (_danger == !false)
+            ? adrColor.backgroundButtonErrorHover
+            : adrColor.backgroundButtonPrimaryHover,
+        child: Container(
+          padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 24),
+          child: Text(
+            widget.text,
+            style: TextStyle(
+                color: (_onPressed == null)
+                    ? nullButtonTextColor
+                    : notNullButtonPrimaryTextColor,
+                fontFamily: adrFont.button1FontFamily,
+                fontWeight: adrFont.weightSemibold,
+                fontSize: adrFont.button1FontSize),
           ),
-        ));
+        ),
+      ),
+    );
   }
 }
 
@@ -91,84 +77,76 @@ class AdButtonPrimaryIcon extends StatefulWidget {
       required this.text,
       this.danger,
       required this.onPressed,
-      required this.faIcon})
+      required this.icon})
       : super(key: key);
 
   final String text;
   final Function() onPressed;
   final bool? danger;
-  final IconData? faIcon;
+  final IconData? icon;
 
   @override
   State<AdButtonPrimaryIcon> createState() => _AdButtonPrimaryStateIcon();
 }
 
 class _AdButtonPrimaryStateIcon extends State<AdButtonPrimaryIcon> {
-  bool isHovered = false;
   bool? _danger;
-
-  void onEntered(bool isHovered) => setState(() {
-        this.isHovered = isHovered;
-      });
+  VoidCallback? _onPressed;
 
   void initState() {
     super.initState();
 
     _danger = widget.danger;
+    _onPressed = widget.onPressed;
   }
 
   @override
   Widget build(BuildContext context) {
-    final buttonColor = isHovered
-        ? adrColor.backgroundButtonPrimaryHover
+    const nullButtonPrimaryFillColor = adrColor.backgroundDisable;
+    const nullButtonTextColor = adrColor.textDisable;
+    final notNullButtonPrimaryFillColor = (_danger == !false)
+        ? adrColor.backgroundButtonErrorActive
         : adrColor.backgroundButtonPrimaryActive;
-    final buttonColorError = isHovered
-        ? adrColor.backgroundButtonErrorHover
-        : adrColor.backgroundButtonErrorActive;
+    final notNullButtonPrimaryTextColor =
+        (_danger == !false) ? adrColor.textWhite : adrColor.textButtonPrimary;
 
-    return MouseRegion(
-        onEnter: (event) => onEntered(true),
-        onExit: (event) => onEntered(false),
-        child: AnimatedContainer(
-          duration: const Duration(milliseconds: 100),
-          child: InkWell(
-            onTap: widget.onPressed,
-            borderRadius: BorderRadius.circular(100),
-            child: Container(
-              margin: const EdgeInsets.all(8),
-              constraints: const BoxConstraints(minWidth: 97),
-              decoration: BoxDecoration(
-                  color: (_danger == !false)
-                      ? buttonColorError
-                      : buttonColor, // << CHANGE HERE
-                  borderRadius: BorderRadius.circular(adrSize.buttonRadius)),
-              padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 24),
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  FaIcon(
-                    widget.faIcon,
-                    color: (_danger == !false)
-                        ? adrColor.textWhite
-                        : adrColor.textButtonPrimary,
-                  ),
-                  const SizedBox(width: 8),
-                  Text(
-                    widget.text,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        color: (_danger == !false)
-                            ? adrColor.textWhite
-                            : adrColor.textButtonPrimary,
-                        fontFamily: adrFont.button1FontFamily,
-                        fontWeight: adrFont.weightSemibold,
-                        fontSize: adrFont.button1FontSize),
-                  ),
-                ],
-              ),
+    return Container(
+      constraints: const BoxConstraints(minHeight: 40.0),
+      child: RawMaterialButton(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(100)),
+        onPressed: widget.onPressed,
+        fillColor: (_onPressed == null)
+            ? nullButtonPrimaryFillColor
+            : notNullButtonPrimaryFillColor,
+        hoverColor: (_danger == !false)
+            ? adrColor.backgroundButtonErrorHover
+            : adrColor.backgroundButtonPrimaryHover,
+        child: Container(
+          padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 24),
+          child: Row(mainAxisSize: MainAxisSize.min, children: [
+            Icon(
+              widget.icon,
+              color: (_onPressed == null)
+                  ? nullButtonTextColor
+                  : notNullButtonPrimaryTextColor,
             ),
-          ),
-        ));
+            const SizedBox(
+              width: 8,
+            ),
+            Text(
+              widget.text,
+              style: TextStyle(
+                  color: (_onPressed == null)
+                      ? nullButtonTextColor
+                      : notNullButtonPrimaryTextColor,
+                  fontFamily: adrFont.button1FontFamily,
+                  fontWeight: adrFont.weightSemibold,
+                  fontSize: adrFont.button1FontSize),
+            ),
+          ]),
+        ),
+      ),
+    );
   }
 }
 
@@ -178,7 +156,7 @@ class AdButtonSecondary extends StatefulWidget {
       : super(key: key);
 
   final String text;
-  final Function() onPressed;
+  final VoidCallback? onPressed;
   final bool? danger;
 
   @override
@@ -186,66 +164,68 @@ class AdButtonSecondary extends StatefulWidget {
 }
 
 class _AdButtonSecondaryState extends State<AdButtonSecondary> {
-  bool isHovered = false;
   bool? _danger;
-
-  void onEntered(bool isHovered) => setState(() {
-        this.isHovered = isHovered;
-      });
+  VoidCallback? _onPressed;
 
   void initState() {
     super.initState();
 
     _danger = widget.danger;
+    _onPressed = widget.onPressed;
   }
 
   @override
   Widget build(BuildContext context) {
-    final buttonColor = isHovered
-        ? adrColor.backgroundButtonSecondaryHover
-        : adrColor.backgroundButtonSecondaryActive;
-    final buttonColorError = isHovered
-        ? adrColor.backgroundButtonErrorHover
-        : adrColor.backgroundButtonSecondaryActive;
+    const nullButtonColor = adrColor.backgroundDisable;
+    const nullButtonBorder = adrColor.borderDisable;
+    const nullButtonTextColor = adrColor.textDisable;
 
-    return MouseRegion(
-      onEnter: (event) => onEntered(true),
-      onExit: (event) => onEntered(false),
-      child: AnimatedContainer(
-        duration: const Duration(milliseconds: 100),
-        child: InkWell(
-          onTap: widget.onPressed,
-          borderRadius: BorderRadius.circular(100), //border radius focus
+    final notNullButtonFillColor = (_danger == !false)
+        ? adrColor.backgroundButtonSecondaryActive
+        : adrColor.backgroundButtonSecondaryActive;
+    final notNullButtonBorder = (_danger == !false)
+        ? adrColor.borderButtonError
+        : adrColor.borderButtonLink;
+    final notNullButtonTextColor =
+        (_danger == !false) ? adrColor.textError : adrColor.textButtonSecondary;
+
+    return Container(
+      constraints: const BoxConstraints(minHeight: 40.0),
+      child: RawMaterialButton(
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(adrSize.buttonRadius)),
+        onPressed: widget.onPressed,
+        fillColor:
+            (_onPressed == null) ? nullButtonColor : notNullButtonFillColor,
+        hoverColor: (_danger == !false)
+            ? adrColor.backgroundButtonErrorHover
+            : adrColor.backgroundButtonSecondaryHover,
+        child: Container(
+          //constraints: BoxConstraints(minHeight: 40.0),
+          decoration: BoxDecoration(
+              border: Border.all(
+                  color: (_onPressed == null)
+                      ? nullButtonBorder
+                      : notNullButtonBorder,
+                  width: 2), //border color
+              borderRadius: BorderRadius.circular(adrSize.buttonRadius)),
+          padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 24),
           child: Container(
-            margin: const EdgeInsets.all(4),
-            constraints: const BoxConstraints(minWidth: 97),
-            decoration: BoxDecoration(
-                color: (_danger == !false) ? buttonColorError : buttonColor,
-                border: Border.all(
-                    color: (_danger == !false)
-                        ? adrColor.borderButtonError
-                        : adrColor.borderLink,
-                    width: 2), //border color
-                borderRadius: BorderRadius.circular(adrSize.buttonRadius)),
-            padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 24),
-            child: Container(
-              constraints: BoxConstraints(minHeight: 24.0),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    widget.text,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        color: (_danger == !false)
-                            ? adrColor.textError
-                            : adrColor.textLink,
-                        fontFamily: adrFont.button1FontFamily,
-                        fontWeight: adrFont.weightSemibold,
-                        fontSize: adrFont.button1FontSize),
-                  ),
-                ],
-              ),
+            constraints: const BoxConstraints(minHeight: 24.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  widget.text,
+                  style: TextStyle(
+                      color: (_onPressed == null)
+                          ? nullButtonTextColor
+                          : notNullButtonTextColor,
+                      fontFamily: adrFont.button1FontFamily,
+                      fontWeight: adrFont.weightSemibold,
+                      fontSize: adrFont.button1FontSize),
+                ),
+              ],
             ),
           ),
         ),
@@ -260,282 +240,275 @@ class AdButtonSecondaryIcon extends StatefulWidget {
       required this.text,
       this.danger,
       required this.onPressed,
-      required this.icons})
+      required this.icon})
       : super(key: key);
 
   final String text;
-  final Function() onPressed;
+  final VoidCallback? onPressed;
   final bool? danger;
-  final IconData? icons;
+  final IconData? icon;
 
   @override
   State<AdButtonSecondaryIcon> createState() => _AdButtonSecondaryStateIcon();
 }
 
 class _AdButtonSecondaryStateIcon extends State<AdButtonSecondaryIcon> {
-  bool isHovered = false;
   bool? _danger;
-
-  void onEntered(bool isHovered) => setState(() {
-        this.isHovered = isHovered;
-      });
+  VoidCallback? _onPressed;
 
   void initState() {
     super.initState();
 
     _danger = widget.danger;
+    _onPressed = widget.onPressed;
   }
 
   @override
   Widget build(BuildContext context) {
-    final buttonColor = isHovered
-        ? adrColor.backgroundButtonSecondaryHover
-        : adrColor.backgroundButtonSecondaryActive;
-    final buttonColorError = isHovered
-        ? adrColor.backgroundButtonErrorHover
-        : adrColor.backgroundButtonSecondaryActive;
+    const nullButtonColor = adrColor.backgroundDisable;
+    const nullButtonBorder = adrColor.borderDisable;
+    const nullButtonTextColor = adrColor.textDisable;
 
-    return MouseRegion(
-      onEnter: (event) => onEntered(true),
-      onExit: (event) => onEntered(false),
-      child: AnimatedContainer(
-        duration: const Duration(milliseconds: 100),
-        child: InkWell(
-          onTap: widget.onPressed,
-          borderRadius: BorderRadius.circular(100), //border radius focus
-          child: Container(
-            margin: const EdgeInsets.all(4),
-            constraints: const BoxConstraints(minWidth: 97),
-            decoration: BoxDecoration(
-                color: (_danger == !false) ? buttonColorError : buttonColor,
-                border: Border.all(
-                    color: (_danger == !false)
-                        ? adrColor.borderButtonError
-                        : adrColor.borderLink,
-                    width: 2), //border color
-                borderRadius: BorderRadius.circular(adrSize.buttonRadius)),
-            padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 24),
-            child: Container(
-              constraints: BoxConstraints(minHeight: 24.0),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  FaIcon(
-                    widget.icons,
-                    color: (_danger == !false)
-                        ? adrColor.textError
-                        : adrColor.textLink,
-                  ),
-                  const SizedBox(width: 8),
-                  Text(
-                    widget.text,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        color: (_danger == !false)
-                            ? adrColor.textError
-                            : adrColor.textLink,
-                        fontFamily: adrFont.button1FontFamily,
-                        fontWeight: adrFont.weightSemibold,
-                        fontSize: adrFont.button1FontSize),
-                  ),
-                ],
-              ),
+    final notNullButtonFillColor = (_danger == !false)
+        ? adrColor.backgroundButtonSecondaryActive
+        : adrColor.backgroundButtonSecondaryActive;
+    final notNullButtonBorder = (_danger == !false)
+        ? adrColor.borderButtonError
+        : adrColor.borderButtonLink;
+    final notNullButtonTextColor =
+        (_danger == !false) ? adrColor.textError : adrColor.textButtonSecondary;
+
+    return Container(
+      constraints: const BoxConstraints(minHeight: 40.0),
+      child: RawMaterialButton(
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(adrSize.buttonRadius)),
+        onPressed: widget.onPressed,
+        fillColor:
+            (_onPressed == null) ? nullButtonColor : notNullButtonFillColor,
+        hoverColor: (_danger == !false)
+            ? adrColor.backgroundButtonErrorHover
+            : adrColor.backgroundButtonSecondaryHover,
+        child: Container(
+          decoration: BoxDecoration(
+              border: Border.all(
+                  color: (_onPressed == null)
+                      ? nullButtonBorder
+                      : notNullButtonBorder,
+                  width: 2), //border color
+              borderRadius: BorderRadius.circular(adrSize.buttonRadius)),
+          padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 24),
+          child: Row(mainAxisSize: MainAxisSize.min, children: [
+            Icon(
+              widget.icon,
+              color: (_onPressed == null)
+                  ? nullButtonTextColor
+                  : notNullButtonTextColor,
             ),
-          ),
+            const SizedBox(
+              width: 8,
+            ),
+            Text(
+              widget.text,
+              style: TextStyle(
+                  color: (_onPressed == null)
+                      ? nullButtonTextColor
+                      : notNullButtonTextColor,
+                  fontFamily: adrFont.button1FontFamily,
+                  fontWeight: adrFont.weightSemibold,
+                  fontSize: adrFont.button1FontSize),
+            ),
+          ]),
         ),
       ),
     );
   }
 }
 
-class AdButtonText extends StatelessWidget {
+class AdButtonText extends StatefulWidget {
   const AdButtonText(
       {Key? key, required this.text, this.danger, required this.onPressed})
       : super(key: key);
 
   final String text;
-  final Function() onPressed;
+  final VoidCallback? onPressed;
   final bool? danger;
 
   @override
-  Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onPressed,
-      borderRadius: BorderRadius.circular(100), //border radius focus
-      hoverColor: (danger == !false)
-          ? adrColor.backgroundButtonErrorHover
-          : adrColor.backgroundButtonSecondaryHover,
+  State<AdButtonText> createState() => _AdButtonTextState();
+}
 
-      child: Container(
-        margin: const EdgeInsets.all(8),
-        constraints: const BoxConstraints(minWidth: 97),
-        decoration: const BoxDecoration(),
-        padding: const EdgeInsets.all(8),
-        child: Text(
-          text,
-          textAlign: TextAlign.center,
-          style: TextStyle(
-              color:
-                  (danger == !false) ? adrColor.textError : adrColor.textLink,
-              fontFamily: adrFont.button1FontFamily,
-              fontWeight: adrFont.weightSemibold,
-              fontSize: adrFont.button1FontSize),
+class _AdButtonTextState extends State<AdButtonText> {
+  bool? _danger;
+  VoidCallback? _onPressed;
+
+  void initState() {
+    super.initState();
+
+    _danger = widget.danger;
+    _onPressed = widget.onPressed;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    const nullButtonTextColor = adrColor.textDisable;
+
+    final notNullButtonTextColor =
+        (_danger == !false) ? adrColor.textError : adrColor.textButtonSecondary;
+
+    return Container(
+      constraints: const BoxConstraints(minHeight: 40.0),
+      child: RawMaterialButton(
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(adrSize.buttonRadius)),
+        onPressed: widget.onPressed,
+        hoverColor: (_danger == !false)
+            ? adrColor.backgroundButtonErrorHover
+            : adrColor.backgroundButtonSecondaryHover,
+        child: Container(
+          padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 24),
+          child: Row(mainAxisSize: MainAxisSize.min, children: [
+            Text(
+              widget.text,
+              style: TextStyle(
+                  color: (_onPressed == null)
+                      ? nullButtonTextColor
+                      : notNullButtonTextColor,
+                  fontFamily: adrFont.button1FontFamily,
+                  fontWeight: adrFont.weightSemibold,
+                  fontSize: adrFont.button1FontSize),
+            ),
+          ]),
         ),
       ),
     );
   }
 }
 
-class AdButtonTextIcon extends StatelessWidget {
+class AdButtonTextIcon extends StatefulWidget {
   const AdButtonTextIcon(
       {Key? key,
       required this.text,
       this.danger,
       required this.onPressed,
-      required this.icons})
+      required this.icon})
       : super(key: key);
 
   final String text;
-  final Function() onPressed;
+  final VoidCallback? onPressed;
   final bool? danger;
-  final IconData? icons;
+  final IconData? icon;
+
+  @override
+  State<AdButtonTextIcon> createState() => _AdButtonTextIconState();
+}
+
+class _AdButtonTextIconState extends State<AdButtonTextIcon> {
+  bool? _danger;
+  VoidCallback? _onPressed;
+
+  void initState() {
+    super.initState();
+
+    _danger = widget.danger;
+    _onPressed = widget.onPressed;
+  }
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onPressed,
-      borderRadius: BorderRadius.circular(100), //border radius focus
-      hoverColor: (danger == !false)
-          ? adrColor.backgroundButtonErrorHover
-          : adrColor.backgroundButtonSecondaryHover,
+    const nullButtonTextColor = adrColor.textDisable;
 
-      child: Container(
-        margin: const EdgeInsets.all(8),
-        constraints: const BoxConstraints(minWidth: 97),
-        decoration: const BoxDecoration(),
-        padding: const EdgeInsets.all(8),
-        child: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            FaIcon(
-              this.icons,
-              color:
-                  (danger == !false) ? adrColor.textError : adrColor.textLink,
+    final notNullButtonTextColor =
+        (_danger == !false) ? adrColor.textError : adrColor.textButtonSecondary;
+
+    return Container(
+      constraints: const BoxConstraints(minHeight: 40.0),
+      child: RawMaterialButton(
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(adrSize.buttonRadius)),
+        onPressed: widget.onPressed,
+        hoverColor: (_danger == !false)
+            ? adrColor.backgroundButtonErrorHover
+            : adrColor.backgroundButtonSecondaryHover,
+        child: Container(
+          padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 24),
+          child: Row(mainAxisSize: MainAxisSize.min, children: [
+            Icon(
+              widget.icon,
+              color: (_onPressed == null)
+                  ? nullButtonTextColor
+                  : notNullButtonTextColor,
             ),
-            const SizedBox(width: 8),
+            const SizedBox(
+              width: 8,
+            ),
             Text(
-              text,
-              textAlign: TextAlign.center,
+              widget.text,
               style: TextStyle(
-                  color: (danger == !false)
-                      ? adrColor.textError
-                      : adrColor.textLink,
+                  color: (_onPressed == null)
+                      ? nullButtonTextColor
+                      : notNullButtonTextColor,
                   fontFamily: adrFont.button1FontFamily,
                   fontWeight: adrFont.weightSemibold,
                   fontSize: adrFont.button1FontSize),
             ),
-          ],
+          ]),
         ),
       ),
     );
   }
 }
 
-class AdButtonIcon extends StatelessWidget {
+class AdButtonIcon extends StatefulWidget {
   const AdButtonIcon(
-      {Key? key, required this.icons, this.danger, required this.onPressed})
+      {Key? key, required this.icon, this.danger, required this.onPressed})
       : super(key: key);
 
-  final IconData icons;
+  final IconData icon;
   final bool? danger;
-  final Function() onPressed;
+  final VoidCallback? onPressed;
+
+  @override
+  State<AdButtonIcon> createState() => _AdButtonIconState();
+}
+
+class _AdButtonIconState extends State<AdButtonIcon> {
+  bool? _danger;
+  VoidCallback? _onPressed;
+
+  void initState() {
+    super.initState();
+
+    _danger = widget.danger;
+    _onPressed = widget.onPressed;
+  }
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onPressed,
-      borderRadius: BorderRadius.circular(adrSize.buttonRadius),
-      hoverColor: (danger == !false)
+    const nullButtonTextColor = adrColor.textDisable;
+
+    final notNullButtonTextColor =
+        (_danger == !false) ? adrColor.textError : adrColor.textButtonSecondary;
+
+    return RawMaterialButton(
+      constraints: const BoxConstraints(minWidth: 40.0, minHeight: 40.0),
+      shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(adrSize.buttonRadius)),
+      onPressed: widget.onPressed,
+      hoverColor: (_danger == !false)
           ? adrColor.backgroundButtonErrorHover
           : adrColor.backgroundButtonSecondaryHover,
       child: Container(
-        margin: const EdgeInsets.all(8),
-        child: FaIcon(
-          icons,
-          color: (danger == !false) ? adrColor.textError : adrColor.textLink,
-        ),
+        padding: const EdgeInsets.all(10),
+        child: Row(mainAxisSize: MainAxisSize.min, children: [
+          Icon(
+            widget.icon,
+            color: (_onPressed == null)
+                ? nullButtonTextColor
+                : notNullButtonTextColor,
+          ),
+        ]),
       ),
     );
   }
 }
-
-// class ButtonPrimary extends StatelessWidget {
-//   const ButtonPrimary({Key? key, required this.text, required this.onPressed})
-//       : super(key: key);
-
-//   final String text;
-//   final Function() onPressed;
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return InkWell(
-//       onTap: onPressed,
-//       borderRadius: BorderRadius.circular(100),
-//       child: Container(
-//         margin: const EdgeInsets.all(4),
-//         constraints: const BoxConstraints(minWidth: 97),
-//         decoration: BoxDecoration(
-//             color: adrColor.backgroundButtonPrimaryActive, // << CHANGE HERE
-//             borderRadius: BorderRadius.circular(adrSize.buttonRadius)),
-//         padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 8),
-//         child: Text(
-//           text,
-//           textAlign: TextAlign.center,
-//           style: const TextStyle(
-//               color: adrColor.textButtonPrimary,
-//               fontFamily: adrFont.button1FontFamily,
-//               fontWeight: adrFont.weightSemibold,
-//               fontSize: adrFont.button1FontSize),
-//         ),
-//       ),
-//     );
-//   }
-// }
-
-// class ButtonSecondary extends StatelessWidget {
-//   const ButtonSecondary({Key? key, required this.text, required this.onPressed})
-//       : super(key: key);
-
-//   final String text;
-//   final Function() onPressed;
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return InkWell(
-//       onTap: onPressed,
-//       borderRadius: BorderRadius.circular(100), //border radius focus
-//       child: Container(
-//         margin: const EdgeInsets.all(4),
-//         constraints: const BoxConstraints(minWidth: 97),
-//         decoration: BoxDecoration(
-//             color: adrColor.backgroundButtonSecondaryActive,
-//             border:
-//                 Border.all(color: adrColor.borderLink, width: 2), //border color
-//             borderRadius: BorderRadius.circular(adrSize.buttonRadius)),
-//         padding: const EdgeInsets.all(8),
-//         child: Text(
-//           text,
-//           textAlign: TextAlign.center,
-//           style: const TextStyle(
-//               color: adrColor.textLink,
-//               fontFamily: adrFont.button1FontFamily,
-//               fontWeight: adrFont.weightSemibold,
-//               fontSize: adrFont.button1FontSize),
-//         ),
-//       ),
-//     );
-//   }
-// }
-
-
